@@ -20,7 +20,7 @@ CiviCRM est un système modulaire. Dans sa configuration la plus simple, vous po
 -   envoyer des courriels
 -   faire le suivi de vos interactions avec vos contacts
 
-Mais les composantes et extensions de CiviCRM vous permettent d'en faire bien davantage ! Vous pouvez entre autres gérer les adhésions et cotisations de vos membres, gérer les inscriptions à vos événements, recevoir des dons en ligne ou distribuer des subventions. Voir les chapitres *Composantes* et *Extensions* pour plus d'information.
+Mais les composants et extensions de CiviCRM vous permettent d'en faire bien davantage ! Vous pouvez entre autres gérer les adhésions et cotisations de vos membres, gérer les inscriptions à vos événements, recevoir des dons en ligne ou distribuer des subventions. Voir les chapitres *Composants* et *Extensions* pour plus d'information.
 
 CiviCRM travaille en collaboration avec une autre espèce de logiciel très courant : un système de gestion du contenu, ou CMS (pour Content Management System). Un CMS est un outil qui permet de créer et de gérer des sites web; de nos jours, la plupart des sites sont gérés à partir d'un CMS.
 
