@@ -10,6 +10,7 @@ pages:
 - Accueil: 'index.md'
 - Introduction:
     - "Qu'est-ce que CiviCRM ?": 'introduction/what-is-civicrm.md'
+    - "CiviCRM est-il fait pour vous ?": "introduction/is-civicrm-for-you.md"
     - "Des exemples concrets": 'introduction/real-world-examples.md'
     - "Composants": 'introduction/components.md'
     - 'Extensions': 'introduction/extensions.md'
