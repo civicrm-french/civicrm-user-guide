@@ -18,16 +18,16 @@ Depuis ces premiers jours, CiviCRM est devenu le principal CRM open source pour 
 
 CiviCRM fait place à un écosystème grandissant de contributeurs au logiciel libre autour du projet, et des organisations à but non lucratif reconnues comme Amnesty International, Creative Commons, Electronic Frontier Foundation, Free Software Foundation, Mozilla, et Wikimedia Foundation qui chacune utilise CiviCRM.
 
-À l'heure actuelle, CiviCRM fonctionne selon une [structure en cercles]:https://civicrm.org/core-team axée sur divers aspects du projet, notamment le développement, la maintenance, le marketing, etc. CiviCRM continue d'être coordonné par une équipe centrale la [Core Team]:https://civicrm.org/core-team.
+À l'heure actuelle, CiviCRM fonctionne selon une [structure en cercles](https://civicrm.org/core-team) axée sur divers aspects du projet, notamment le développement, la maintenance, le marketing, etc. CiviCRM continue d'être coordonné par une équipe centrale la [Core Team](https://civicrm.org/core-team).
 
 Ça fait du bien de discuter
 ---------------------------
 
 La communité CiviCRM est toujours à la recherche de nouvelles idées, les membres seront heureux d'entendre les votres. Si vous avez une bonne idée, rien ne vous empêche de la développer. Cependant, la meilleure façon de commencer, c'est d'en discuter.
 
-Si vous ne savez pas par où commencer, la meilleure place est probablement le forum de CiviCRM sur ([Mattermost]:https://chat.civicrm.org/). Demandez aux autres ce qu'ils pensent de votre idée. Avec un peu de chance, quelqu'un d'autre aura déjà essayé quelque chose de semblable. Les membres de la communauté sont amicaux et leur philosophie de base est la collaboration.
+Si vous ne savez pas par où commencer, la meilleure place est probablement le forum de CiviCRM sur ([Mattermost](https://chat.civicrm.org/)). Demandez aux autres ce qu'ils pensent de votre idée. Avec un peu de chance, quelqu'un d'autre aura déjà essayé quelque chose de semblable. Les membres de la communauté sont amicaux et leur philosophie de base est la collaboration.
 
-Vous pourriez ensuite être redirigé vers la prochaine étape : peut-être un article sur le blogue (http://civicrm.org/blog/), CiviCRM's [GitLab]:https://lab.civicrm.org/, un appel conférence ou une réunion en personne avec un autre membre de la communauté. Eh oui, c'est exact, en personne !
+Vous pourriez ensuite être redirigé vers la prochaine étape : peut-être un article sur le [blog](http://civicrm.org/blog/), CiviCRM's [GitLab](https://lab.civicrm.org/), un appel conférence ou une réunion en personne avec un autre membre de la communauté. Eh oui, c'est exact, en personne !
 
 Faites partie du changement
 ---------------------------
