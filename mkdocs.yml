@@ -1,174 +1,174 @@
 site_name: "Guide d'utilisation et d'administration de CiviCRM"
 site_url: http://docs.civicrm.org/user/fr/latest
 repo_url: https://lab.civicrm.org/documentation/docs/user-fr
-site_description: 'Un guide pour les utilisateurs et administrateurs de CiviCRM.'
-site_author: 'La communauté CiviCRM'
+site_description: "Un guide pour les utilisateurs et administrateurs de CiviCRM."
+site_author: "La communauté CiviCRM"
 
 theme: material
 
 pages:
-- Accueil: 'index.md'
+- Accueil: "index.md"
 - Introduction:
-    - "Qu'est-ce que CiviCRM ?": 'introduction/what-is-civicrm.md'
-    - "Des exemples concrets": 'introduction/real-world-examples.md'
-    - "Composants": 'introduction/components.md'
-    - 'Extensions': 'introduction/extensions.md'
-    - "Qui est la communauté CiviCRM ?": 'introduction/who-is-civicrm.md'
+    - "Qu'est-ce que CiviCRM ?": "introduction/what-is-civicrm.md"
+    - "Des exemples concrets": "introduction/real-world-examples.md"
+    - "Composants": "introduction/components.md"
+    - "Extensions": "introduction/extensions.md"
+    - "Qui est la communauté CiviCRM ?": "introduction/who-is-civicrm.md"
 - Préparation:
-    - "CiviCRM convient-il à votre organisation ?": 'getting-prepared/is-civicrm-for-you.md'
-    - 'Identifier vos besoins': 'getting-prepared/identifying-your-needs.md'
-    - "L'essayer": 'getting-prepared/test-it-out.md'
-    - "Hébergement": 'getting-prepared/hosting.md'
-    - 'Migrer vers CiviCRM': 'getting-prepared/transitioning-to-civicrm.md'
+    - "CiviCRM convient-il à votre organisation ?": "getting-prepared/is-civicrm-for-you.md"
+    - "Identifier vos besoins": "getting-prepared/identifying-your-needs.md"
+    - "L'essayer": "getting-prepared/test-it-out.md"
+    - "Hébergement": "getting-prepared/hosting.md"
+    - "Migrer vers CiviCRM": "getting-prepared/transitioning-to-civicrm.md"
 - Configuration initiale:
-    - "Installation et paramétrage": 'initial-set-up/installation-and-basic-set-up.md'
-    - "Travaux programmés": 'initial-set-up/scheduled-jobs.md'
-    - "Personnaliser l'interface utilisateur": 'initial-set-up/customizing-the-user-interface.md'
-    - "Autorisations et contrôle d'accès": 'initial-set-up/permissions-and-access-control.md'
-    - "Sécurité": 'initial-set-up/security.md'
-    - 'État du système CiviCRM': 'initial-set-up/civicrm-system-status.md'
+    - "Installation et paramétrage": "initial-set-up/installation-and-basic-set-up.md"
+    - "Travaux programmés": "initial-set-up/scheduled-jobs.md"
+    - "Personnaliser l'interface utilisateur": "initial-set-up/customizing-the-user-interface.md"
+    - "Autorisations et contrôle d'accès": "initial-set-up/permissions-and-access-control.md"
+    - "Sécurité": "initial-set-up/security.md"
+    - "État du système CiviCRM": "initial-set-up/civicrm-system-status.md"
 - Configuration avancée:
-    - 'Configuration des e-mails': 'advanced-configuration/email-system-configuration.md'
-    - 'Enregistrement': 'advanced-configuration/change-logging.md'
+    - "Configuration des e-mails": "advanced-configuration/email-system-configuration.md"
+    - "Enregistrement": "advanced-configuration/change-logging.md"
 - L'interface utilisateur:
-    - 'Menu, tableau de bord, indicateurs': 'the-user-interface/menu-dashboard-and-dashlets.md'
-    - 'Raccourcis clavier': 'the-user-interface/keyboard-shortcuts.md'
-    - 'Recherches': 'the-user-interface/searching.md'
-    - 'Restauration des contacts': 'the-user-interface/undelete.md'
+    - "Menu, tableau de bord, indicateurs": "the-user-interface/menu-dashboard-and-dashlets.md"
+    - "Raccourcis clavier": "the-user-interface/keyboard-shortcuts.md"
+    - "Recherches": "the-user-interface/searching.md"
+    - "Restauration des contacts": "the-user-interface/undelete.md"
 - Organiser vos données:
-    - 'Aperçu': 'organising-your-data/overview.md'
-    - "Comment organiser vos données ?": 'organising-your-data/mapping-your-data.md'
-    - 'Contacts': 'organising-your-data/contacts.md'
-    - "Groupes et étiquettes": 'organising-your-data/groups-and-tags.md'
-    - 'Groupes dynamiques': 'organising-your-data/smart-groups.md'
-    - "Activités": 'organising-your-data/activities.md'
-    - 'Relations': 'organising-your-data/relationships.md'
-    - "Créer des champs personnalisés": 'organising-your-data/creating-custom-fields.md'
-    - "Les Profils": 'organising-your-data/profiles.md'
+    - "Aperçu": "organising-your-data/overview.md"
+    - "Comment organiser vos données ?": "organising-your-data/mapping-your-data.md"
+    - "Contacts": "organising-your-data/contacts.md"
+    - "Groupes et étiquettes": "organising-your-data/groups-and-tags.md"
+    - "Groupes dynamiques": "organising-your-data/smart-groups.md"
+    - "Activités": "organising-your-data/activities.md"
+    - "Relations": "organising-your-data/relationships.md"
+    - "Créer des champs personnalisés": "organising-your-data/creating-custom-fields.md"
+    - "Les Profils": "organising-your-data/profiles.md"
 - Processus communs:
-    - 'Importer des données dans CiviCRM': 'common-workflows/importing-data-into-civicrm.md'
-    - 'Exporter vos contacts': 'common-workflows/exporting-your-contacts.md'
-    - 'Dédoublonner et fusionner': 'common-workflows/deduping-and-merging.md'
-    - 'Jetons, fusions et publipostages': 'common-workflows/tokens-and-mail-merge.md'
-    - 'Communications par courrier postal': 'common-workflows/postal-mail-communications.md'
-    - 'Automatiser les tâches': 'common-workflows/automating-tasks.md'
+    - "Importer des données dans CiviCRM": "common-workflows/importing-data-into-civicrm.md"
+    - "Exporter vos contacts": "common-workflows/exporting-your-contacts.md"
+    - "Dédoublonner et fusionner": "common-workflows/deduping-and-merging.md"
+    - "Jetons, fusions et publipostages": "common-workflows/tokens-and-mail-merge.md"
+    - "Communications par courrier postal": "common-workflows/postal-mail-communications.md"
+    - "Automatiser les tâches": "common-workflows/automating-tasks.md"
 - Contributions:
-    - "Qu'est-ce que CiviContribute?": 'contributions/what-is-civicontribute.md'
-    - "Configuration et Concepts clés": 'contributions/key-concepts-and-configurations.md'
-    - "Contributions en ligne": 'contributions/online-contributions.md'
-    - "Levée de fonds manuelle": 'contributions/offline-fundraising.md'
-    - "Entrée manuelle des contributions": 'contributions/manual-entry-of-contributions.md'
-    - 'Rechercher des contributions': 'contributions/finding-and-viewing-contributions.md'
-    - "Envoi de reçus et lettres de remerciements": 'contributions/manual-receipts-and-thank-yous.md'
-    - 'Rapports et analyses': 'contributions/reports-and-analysis.md'
-    - "Crédit Indirect": 'contributions/soft-credits.md'
-    - "Page de Campagne Personnelles": 'contributions/personal-campaign-pages.md'
-    - "Intégration Comptable": 'contributions/accounting-integration.md'
-    - "Processeur de paiement": 'contributions/payment-processors.md'
-    - "Facturation": 'contributions/invoicing.md'
-    - 'TVA et taxe de vente': 'contributions/sales-tax-and-vat.md'
-    - 'Cadeaux': 'contributions/premiums.md'
-    - 'Widgets': 'contributions/widgets.md'
+    - "Qu'est-ce que CiviContribute?": "contributions/what-is-civicontribute.md"
+    - "Configuration et Concepts clés": "contributions/key-concepts-and-configurations.md"
+    - "Contributions en ligne": "contributions/online-contributions.md"
+    - "Levée de fonds manuelle": "contributions/offline-fundraising.md"
+    - "Entrée manuelle des contributions": "contributions/manual-entry-of-contributions.md"
+    - "Rechercher des contributions": "contributions/finding-and-viewing-contributions.md"
+    - "Envoi de reçus et lettres de remerciements": "contributions/manual-receipts-and-thank-yous.md"
+    - "Rapports et analyses": "contributions/reports-and-analysis.md"
+    - "Crédit Indirect": "contributions/soft-credits.md"
+    - "Page de Campagne Personnelles": "contributions/personal-campaign-pages.md"
+    - "Intégration Comptable": "contributions/accounting-integration.md"
+    - "Processeur de paiement": "contributions/payment-processors.md"
+    - "Facturation": "contributions/invoicing.md"
+    - "TVA et taxe de vente": "contributions/sales-tax-and-vat.md"
+    - "Cadeaux": "contributions/premiums.md"
+    - "Widgets": "contributions/widgets.md"
 - Promesses de dons:
-    - "Qu'est-ce que CiviPledge ?": 'pledges/what-is-civipledge.md'
-    - 'Ce que vous avez besoin de savoir': 'pledges/what-you-need-to-know.md'
-    - 'Configuration': 'pledges/set-up.md'
-    - 'Tâches courantes': 'pledges/everyday-tasks.md'
-    - 'Rapports sur les promesses de dons': 'pledges/pledges-reports-and-analysis.md'
+    - "Qu'est-ce que CiviPledge ?": "pledges/what-is-civipledge.md"
+    - "Ce que vous avez besoin de savoir": "pledges/what-you-need-to-know.md"
+    - "Configuration": "pledges/set-up.md"
+    - "Tâches courantes": "pledges/everyday-tasks.md"
+    - "Rapports sur les promesses de dons": "pledges/pledges-reports-and-analysis.md"
 - Événements:
-    - "Qu'est-ce que CiviEvent?": 'events/what-is-civievent.md'
-    - "Planification et gestion des événements": 'events/event-planning-and-management.md'
-    - 'Créer un évènement': 'events/creating-an-event.md'
-    - 'Inscription en ligne à un événement': 'events/online-event-registration.md'
-    - "Intégrer un évènement sur votre site": 'events/integrating-events-with-your-website.md'
-    - 'Inscription manuelle aux événements': 'events/manual-event-registration.md'
-    - 'Garder la trace des événements et des participants': 'events/keeping-track-of-events-and-participants.md'
-    - 'Frais complexes': 'events/complex-event-fees.md'
-    - "Modèles d'évènement": 'events/event-templates.md'
-    - 'Rapports': 'events/reports.md'
-    - "Données personnalisées": 'events/custom-data-for-events.md'
-    - "Répéter les Evènements": 'events/repeating-events.md'
+    - "Qu'est-ce que CiviEvent?": "events/what-is-civievent.md"
+    - "Planification et gestion des événements": "events/event-planning-and-management.md"
+    - "Créer un évènement": "events/creating-an-event.md"
+    - "Inscription en ligne à un événement": "events/online-event-registration.md"
+    - "Intégrer un évènement sur votre site": "events/integrating-events-with-your-website.md"
+    - "Inscription manuelle aux événements": "events/manual-event-registration.md"
+    - "Garder la trace des événements et des participants": "events/keeping-track-of-events-and-participants.md"
+    - "Frais complexes": "events/complex-event-fees.md"
+    - "Modèles d'évènement": "events/event-templates.md"
+    - "Rapports": "events/reports.md"
+    - "Données personnalisées": "events/custom-data-for-events.md"
+    - "Répéter les Evènements": "events/repeating-events.md"
 - Adhésions:
-    - "Qu'est-ce que CiviMember": 'membership/what-is-civimember.md'
-    - "Définition des adhésions": 'membership/defining-memberships.md'
-    - "Gestion des adhésions en ligne": 'membership/online-membership-sign-up.md'
-    - "Saisie manuelle des adhésions": 'membership/manual-entry-of-memberships.md'
-    - "Gestion des tarifs d'adhésions": 'membership/membership-price-sets.md'
-    - "Trouver et afficher des adhésions": 'membership/finding-and-viewing-memberships.md'
-    - "Rapports sur les adhésions": 'membership/membership-reports.md'
-    - 'Renouvellement': 'membership/renewals.md'
-    - "Adhésions annulées ou expirées": 'membership/cancelling-and-expiring-memberships.md'
-    - "Création d'accès réservés aux membres": 'membership/making-member-only-websites.md'
+    - "Qu'est-ce que CiviMember": "membership/what-is-civimember.md"
+    - "Définition des adhésions": "membership/defining-memberships.md"
+    - "Gestion des adhésions en ligne": "membership/online-membership-sign-up.md"
+    - "Saisie manuelle des adhésions": "membership/manual-entry-of-memberships.md"
+    - "Gestion des tarifs d'adhésions": "membership/membership-price-sets.md"
+    - "Trouver et afficher des adhésions": "membership/finding-and-viewing-memberships.md"
+    - "Rapports sur les adhésions": "membership/membership-reports.md"
+    - "Renouvellement": "membership/renewals.md"
+    - "Adhésions annulées ou expirées": "membership/cancelling-and-expiring-memberships.md"
+    - "Création d'accès réservés aux membres": membership/making-member-only-websites.md
 - Courriel:
-    - "Qu'est-ce que Civimail ?": 'email/what-is-civimail.md'
-    - 'Ce que vous devez savoir': 'email/what-you-need-to-know.md'
-    - 'Configuration': 'email/set-up.md'
-    - 'Maintenir des listes de diffusion à jour': 'email/maintaining-healthy-email-lists.md'
-    - 'Tâches quotidiennes': 'email/everyday-tasks.md'
-    - 'Envois en masse avec CiviMail': 'email/mass-mailings-using-civimail.md'
-    - 'Utiliser des jetons dans les courriels': 'email/using-tokens-in-emails.md'
-    - 'Rapports et analyse': 'email/reports-and-analysis.md'
-    - 'Rappels programmés': 'email/scheduled-reminders.md'
-    - 'Tests A/B avec CiviMail': 'email/civimail-ab-testing.md'
+    - "Qu'est-ce que Civimail ?": "email/what-is-civimail.md"
+    - "Ce que vous devez savoir": "email/what-you-need-to-know.md"
+    - "Configuration": "email/set-up.md"
+    - "Maintenir des listes de diffusion à jour": "email/maintaining-healthy-email-lists.md"
+    - "Tâches quotidiennes": "email/everyday-tasks.md"
+    - "Envois en masse avec CiviMail": "email/mass-mailings-using-civimail.md"
+    - "Utiliser des jetons dans les courriels": "email/using-tokens-in-emails.md"
+    - "Rapports et analyse": "email/reports-and-analysis.md"
+    - "Rappels programmés": "email/scheduled-reminders.md"
+    - "Tests A/B avec CiviMail": "email/civimail-ab-testing.md"
 - SMS (textos):
-    - "Qu'est-ce que le composant SMS ?": 'sms-text-messaging/what-is-sms.md'
-    - 'Configuration': 'sms-text-messaging/set-up.md'
-    - 'Tâches courantes': 'sms-text-messaging/everyday-tasks.md'
-    - 'Rapports et analyse (SMS)': 'sms-text-messaging/reports-and-analysis-sms.md'
+    - "Qu'est-ce que le composant SMS ?": "sms-text-messaging/what-is-sms.md"
+    - "Configuration": "sms-text-messaging/set-up.md"
+    - "Tâches courantes": "sms-text-messaging/everyday-tasks.md"
+    - "Rapports et analyse (SMS)": "sms-text-messaging/reports-and-analysis-sms.md"
 - Rapports:
-    - "Qu'est-ce que CiviReport ?": 'reporting/what-is-civireport.md'
-    - 'Ce que vous devez savoir': 'reporting/what-you-need-to-know.md'
-    - 'Configuration': 'reporting/set-up.md'
-    - 'Tâches courantes': 'reporting/everyday-tasks.md'
+    - "Qu'est-ce que CiviReport ?": "reporting/what-is-civireport.md"
+    - "Ce que vous devez savoir": "reporting/what-you-need-to-know.md"
+    - "Configuration": "reporting/set-up.md"
+    - "Tâches courantes": "reporting/everyday-tasks.md"
 - Gestion des Dossiers:
-    - "Qu'est-ce que CiviCase ?': 'case-management/what-is-civicase.md'
-    - 'Ce que vous devez savoir': 'case-management/what-you-need-to-know.md'
-    - 'Configuration': 'case-management/set-up.md'
-    - 'Tâches courantes': 'case-management/everyday-tasks.md'
-    - 'Rapports et analyse': 'case-management/reports-and-analysis.md'
+    - "Qu'est-ce que CiviCase ?": "case-management/what-is-civicase.md"
+    - "Ce que vous devez savoir": "case-management/what-you-need-to-know.md"
+    - "Configuration": "case-management/set-up.md"
+    - "Tâches courantes": "case-management/everyday-tasks.md"
+    - "Rapports et analyse": "case-management/reports-and-analysis.md"
 - Campagnes:
-    - "Qu'est-ce que Civicampaign ?": 'campaign/what-is-civicampaign.md'
-    - 'Ce que vous devez savoir': 'campaign/what-you-need-to-know.md'
-    - 'Configuration': 'campaign/set-up.md'
-    - 'Tâches courantes': 'campaign/everyday-tasks.md'
-    - 'Rapports et analyse': 'campaign/reports-and-analysis.md'
+    - "Qu'est-ce que Civicampaign ?": "campaign/what-is-civicampaign.md"
+    - "Ce que vous devez savoir": "campaign/what-you-need-to-know.md"
+    - "Configuration": "campaign/set-up.md"
+    - "Tâches courantes": "campaign/everyday-tasks.md"
+    - "Rapports et analyse": "campaign/reports-and-analysis.md"
 - Sondages:
-    - "Qu'est-ce que CiviSurvey ?": 'survey/what-is-civisurvey.md'
-    - 'Ce que vous devez savoir': 'survey/what-you-need-to-know.md'
-    - 'Configuration': 'survey/set-up.md'
-    - 'Tâches courantes': 'survey/everyday-tasks.md'
-    - 'Rapports et analyse': 'survey/reports-and-analysis.md'
-    - "Qu'est-ce que GOTV (Voter Tracking)?": 'survey/what-is-gotv-voter-tracking.md'
+    - "Qu'est-ce que CiviSurvey ?": "survey/what-is-civisurvey.md"
+    - "Ce que vous devez savoir": "survey/what-you-need-to-know.md"
+    - "Configuration": "survey/set-up.md"
+    - "Tâches courantes": "survey/everyday-tasks.md"
+    - "Rapports et analyse": "survey/reports-and-analysis.md"
+    - "Qu'est-ce que GOTV (Voter Tracking)?": "survey/what-is-gotv-voter-tracking.md"
 - Pétitions:
-    - "Qu'est-ce que CiviPetition ?": 'petition/what-is-civipetition.md'
-    - 'Ce que vous devez savoir': 'petition/what-you-need-to-know.md'
-    - 'Configuration': 'petition/set-up.md'
-    - 'Tâches courantes': 'petition/everyday-tasks.md'
-    - 'Rapports et analyse': 'petition/reports-and-analysis.md'
+    - "Qu'est-ce que CiviPetition ?": "petition/what-is-civipetition.md"
+    - "Ce que vous devez savoir": "petition/what-you-need-to-know.md"
+    - "Configuration": "petition/set-up.md"
+    - "Tâches courantes": "petition/everyday-tasks.md"
+    - "Rapports et analyse": "petition/reports-and-analysis.md"
 - Engagement civique :
-    - "Qu'est-ce que CiviEngage ?": 'civic-engagement/what-is-civiengage.md'
-    - 'Ce que vous devez savoir': 'civic-engagement/what-you-need-to-know.md'
-    - 'Configuration': 'civic-engagement/set-up.md'
-    - 'Tâches courantes': 'civic-engagement/everyday-tasks.md'
-    - 'Rapports et analyse': 'civic-engagement/reports-and-analysis.md'
+    - "Qu'est-ce que CiviEngage ?": "civic-engagement/what-is-civiengage.md"
+    - "Ce que vous devez savoir": "civic-engagement/what-you-need-to-know.md"
+    - "Configuration": "civic-engagement/set-up.md"
+    - "Tâches courantes": "civic-engagement/everyday-tasks.md"
+    - "Rapports et analyse": "civic-engagement/reports-and-analysis.md"
 - Subventions:
-    - "Qu'est ce que CiviGrant ?": 'grants/what-is-civigrant.md'
-    - 'Ce que v You Need To Know': 'grants/what-you-need-to-know.md'
-    - 'Configuration': 'grants/set-up.md'
-    - 'Tâches courantes': 'grants/every-day-tasks.md'
-    - 'Reports and analyis': 'grants/reports-and-analysis.md'
+    - "Qu'est ce que CiviGrant ?": "grants/what-is-civigrant.md"
+    - "Ce que v You Need To Know": "grants/what-you-need-to-know.md"
+    - "Configuration": "grants/set-up.md"
+    - "Tâches courantes": "grants/every-day-tasks.md"
+    - "Reports and analyis": "grants/reports-and-analysis.md"
 - Intégration à votre site Web:
-    - 'Choisir votre CMS': 'website-integration/choosing-your-cms.md'
-    - 'Intégration avec Drupal': 'website-integration/integrating-with-drupal.md'
-    - "Intégration avec WordPress": 'website-integration/integrating-with-wordpress.md'
-    - "Intégration avec Joomla": 'website-integration/integrating-with-joomla.md'
+    - "Choisir votre CMS": "website-integration/choosing-your-cms.md"
+    - "Intégration avec Drupal": "website-integration/integrating-with-drupal.md"
+    - "Intégration avec WordPress": "website-integration/integrating-with-wordpress.md"
+    - "Intégration avec Joomla": "website-integration/integrating-with-joomla.md"
 - La communauté CiviCRM:
-    - 'La Communauté CiviCRM': 'the-civicrm-community/the-civicrm-community.md'
-    - 'Déclarer un Bug': 'the-civicrm-community/bug-reporting.md'
-    - 'Régionaliser CiviCRM': 'the-civicrm-community/localising-civicrm.md'
-    - 'Contribuer à ce manuel': 'the-civicrm-community/contributing-to-this-manual.md'
+    - "La Communauté CiviCRM": "the-civicrm-community/the-civicrm-community.md"
+    - "Déclarer un Bug": "the-civicrm-community/bug-reporting.md"
+    - "Régionaliser CiviCRM": "the-civicrm-community/localising-civicrm.md"
+    - "Contribuer à ce manuel": "the-civicrm-community/contributing-to-this-manual.md"
 - Annexes:
-    - "L'histoire de ce livre": 'appendices/history-of-this-book.md'
-    - 'Logiciel Libre ?': 'appendices/free-software.md'
-    - 'Glossaire': 'appendices/glossary.md'
-    - 'Crédits': 'appendices/credits.md'
+    - "L'histoire de ce livre": "appendices/history-of-this-book.md"
+    - "Logiciel Libre ?": "appendices/free-software.md"
+    - "Glossaire": "appendices/glossary.md"
+    - "Crédits": "appendices/credits.md"
