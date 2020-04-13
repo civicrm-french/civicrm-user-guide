@@ -8,7 +8,7 @@ Activer les promesses de don
 
 Paramétrer les formulaires en ligne pour les promesses de don n'est qu'une simple affaire de case à cocher. Une fois la première étape de création de page de contribution faite (voir le chapitre [Contribution en ligne](../contributions/online-contributions.md)), allez dans l'onglet "Montants" puis cochez l'option **Promesses de don**. Une liste d'options apparaitra :
 
-![image](../img/pledge-setup.png)
+![image](/img/pledge-setup.png)
 
 -   **Fréquences de versement disponibles** : choisissez les fréquences que le donateur peut choisir (jour, mois, année...) ;
 -   **Permettre les intervalles de fréquence** : si coché, les donateurs pour choisir un intervalle de fréquence (ex. tous les 5 jours, tous les 2 mois...) ;
@@ -18,4 +18,4 @@ Paramétrer les formulaires en ligne pour les promesses de don n'est qu'une simp
 
 Une fois ces paramétrages effectués, une option pour réaliser une promesse de don sera disponible dans le formulaire de contribution. Pour avoir une vue d'ensemble des promesses de don, plusieurs rapports et un tableau de bord sont disponibles. Pour ce dernier, il suffit d'aller à **Contributions** > **Promesses de don** > **Tableau de bord**
 
-![image](../img/selectpledge_contributeform_1.png)
+![image](/img/selectpledge_contributeform_1.png)

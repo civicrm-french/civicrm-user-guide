@@ -31,7 +31,7 @@ Lorsque vous utilisez le menu **Adhésions** pour créer une nouvelle adhésion,
 
 - À partir du dossier d'un contact, cliquez sur l'onglet **Adhésions** puis cliquez sur "Ajouter Adhésion". Si vous avez configuré un processeur de paiement qui autorise les transactions par carte de crédit directement sur votre site, vous pouvez sélectionner l'option **Soumettre une carte de crédit** et traiter immédiatement le paiement.
 
-![image](../img/manual-add-membership.png) 
+![image](/img/manual-add-membership.png) 
 
 Sur le formulaire **Nouvelle adhésion**  plusieurs champs seront complétés automatiquement s'ils sont laissés en blanc. 
 Ces champs sont:
@@ -82,18 +82,18 @@ Si vous cochez "Renouvellement automatique", une demande de paiement récurrente
 
 -   Naviguez vers **Adhésions** ** puis sélectionnez le contact ou créez un nouveau contact: **Nouveau membre**, 
 
-![image](../img/memberships%20add%20membership%20new%20contact.JPG)
+![image](/img/memberships%20add%20membership%20new%20contact.JPG)
 
 - Remplissez le formulaire "Nouveau Membre" avec l'adhésion appropriée et les informations de paiement comme dans *Via un enregistrement de contact existant* ci-dessus.
 
-![image](../img/memberships%20add%20membership%20via%20menu.JPG) 
+![image](/img/memberships%20add%20membership%20via%20menu.JPG) 
 
 Adhésions gratuites 
 ----------------
 
 Lorsque vous entrez une adhésion manuellement, vous pouvez sélectionner **Enregistrer le paiement à partir d'un contact différent?** pour enregistrer une adhésion offerte par quelqu'un d'autre. La personne qui paie l'adhésion peut être un contact existant ou un nouveau contact créé pendant le processus. Le paiement sera enregistré sur le dossier du payeur, mais l'adhésion sera crédité au destinataire. Le reçu sera envoyé au payeur. Vous devrez envoyer un courriel ou une lettre distincte pour informer le destinataire de la réception de son adhésion offerte par le payeur.
 
-![image](../img/gift%20membership.PNG)
+![image](/img/gift%20membership.PNG)
 
 Saisie de lot de paiement d'adhésion 
 ---------------------------------------

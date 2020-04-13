@@ -6,10 +6,10 @@ Les donateurs qui effectuent des contributions via un formulaire en ligne recevr
 
 Vous pouvez envoyer des reçus de contribution hors ligne à plusieurs contacts en même temps via la recherche [Rechercher des contributions](../contributions/recherche-et-visualisation-contributions). Après avoir sélectionné les contacts auxquels vous souhaitez envoyer un reçu, sélectionnez **Reçus - Imprimer ou Email** dans le menu déroulant des actions.
 
-![ContributionReceiptsManual](../img/civicontribute-receipts-manual.PNG)
+![ContributionReceiptsManual](/img/civicontribute-receipts-manual.PNG)
 
 Vous avez la possibilité d'envoyer des reçus par courrier électronique ou d'éditer des reçus PDF à poster aux contributeurs. 
-![image](../img/Print%20contribution%20receipt%20options.PNG)
+![image](/img/Print%20contribution%20receipt%20options.PNG)
 
 Par défaut, l'envoi par courrier électronique ou la création de reçus PDF mettra à jour la date de réception de chaque contribution, mais vous pouvez conserver les dates de réception existantes si nécessaire. Vous pouvez également choisir de ne pas tenir compte des paramètres **Ne pas envoyer par courrier électronique/Ne pas envoyer par courrier électronique** afin que tous les contributeurs sélectionnés reçoivent un accusé de réception.
 
@@ -24,7 +24,7 @@ Certaines organisations souhaitent envoyer des lettres de remerciement aux perso
 2. Sélectionnez les contributions pour lesquelles vous voulez des lettres de remerciement ou des reçus combinés.
 3. Choisissez l'action **Lettres de remerciement - imprimer ou Email**. Les éléments suivants seront affichés:
 
-![ContributionThankyouLettersNogrouping](../img/civicontribute-thank-you-letters-no-grouping.PNG)
+![ContributionThankyouLettersNogrouping](/img/civicontribute-thank-you-letters-no-grouping.PNG)
 
 4. Choisissez **Mettre à jour les dates de remerciements pour ces contributions** ou **Mettre à jour les dates de réception de ces contributions** selon les besoins. La date actuelle sera saisie dans le champ approprié.
 5. Il y a trois **Options d'impression et d'email** explicites:
@@ -52,11 +52,11 @@ Si vous choisissez **Virgule** comme **Séparateur**, les montants et / ou les d
 Par exemple "Merci pour vos généreux dons de {contribution.total_amount} reçus  {contribution.receive_date} respectivement." deviendra "Merci pour vos généreux dons de 100,00 €, 150,00 €, 325,00 € reçus le 1er janvier 2018, le 5 mars 2018, le 16 mai 2018 respectivement."
 Si vous choisissez **Tabulation** comme **Séparateur**, chaque instance de contribution sera placée dans sa propre colonne de table. Par exemple:
 
-![image](../img/Thank-you%20letters%20as%20table%20template.PNG)
+![image](/img/Thank-you%20letters%20as%20table%20template.PNG)
 
 aura pour résultat:
 
-![image](../img/Thank-you%20letters%20as%20table_1.PNG)
+![image](/img/Thank-you%20letters%20as%20table_1.PNG)
 
 Ce format fonctionne bien si seulement plusieurs contributions ont été reçues au cours de l'année, mais la table sera plus large que la page pour les dons mensuels, bimensuels ou hebdomadaires.
 
@@ -98,4 +98,4 @@ Par exemple, si la source HTML pour votre lettre est:
 ```
 alors vos lettres ressembleront à:
 
-![image](../img/Thank-you%20letters%20as%20with%20smarty%20enabled_2.PNG)
+![image](/img/Thank-you%20letters%20as%20with%20smarty%20enabled_2.PNG)

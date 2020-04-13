@@ -70,11 +70,11 @@ Les vues font partie de la section **Structure** du menu d'administration Drupal
 
 De façon générale, si votre vue concerne des contacts, vous sélectionnerez Afficher: Contacts CiviCRM. Si vous souhaitez afficher d'autres détails comme des événements, des relations, des contributions ou des activités, il existe des options vous permettant d'enrichir votre vue.
 
-![image](../img/Views-CiviCRM-Partner-1.png)
+![image](/img/Views-CiviCRM-Partner-1.png)
 
 Quand la vue est créée, ajustez les champs, filtres, affichage et autres configurations pour adapter la page à vos besoins.
 
-![image](../img/Views-CiviCRM-Partner-3.png "sample configuration using Views 3 in a Drupal 7 environment")  
+![image](/img/Views-CiviCRM-Partner-3.png "sample configuration using Views 3 in a Drupal 7 environment")  
 
 
 ### Ce que peuvent également faire les vues et CiviCRM

@@ -11,7 +11,7 @@ Vous pouvez annuler manuellement un enregistrement d'adhésion ou une adhésion 
 
 - Une fois que vous êtes dans l'écran d'édition de l'enregistrement d'adhésion, vous devrez cocher : **Forcer le statut**, puis sélectionnez le **Statut d'adhésion** approprié que vous souhaitez modifier. À savoir, annulé ou expiré
 
-![image](../img/z_sprint14_Membership_Status_Override_8.png)
+![image](/img/z_sprint14_Membership_Status_Override_8.png)
 
 Notez que la saisie manuelle des adhésions expirantes peuvent ne pas être nécessaire. En fonction de la configuration de vos règles d'état de membre dans **Administration> Adhésions> Règles de statut d'adhésion>** les adhésions expireront automatiquement en fonction d'un certain critère de calendrier que vous avez définies.
 
@@ -24,4 +24,4 @@ Vous pouvez supprimer les enregistrements d'adhésion par
 - Recherchez un contact particulier, puis cliquez sur l'onglet "Adhésion"> cliquez sur **Plus** à côté de l'enregistrement de membre> cliquez sur **Supprimer**, OU
 - Cliquez sur **Adhésions> rechercher des adhésions** choisissez vos critères et à partir de cet écran sélectionnez les enregistrements d'adhésion et cliquez sur **Supprimer**.
 
-![image](../img/z_sprint14_Deleting%20memberships.png)
+![image](/img/z_sprint14_Deleting%20memberships.png)

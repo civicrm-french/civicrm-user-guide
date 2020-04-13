@@ -39,7 +39,7 @@ Suivez les étapes de votre CMS pour [afficher cette page sur votre site](#publi
 
 Accédez à **Contribution> Nouvelle page de contribution**. (**Contribution> Gérer les pages de contribution> Ajouter une page de contribution**) vous amène à cet écran :
 
-![New Contribution Page](../img/civicontribute-new-contribution-page.png)
+![New Contribution Page](/img/civicontribute-new-contribution-page.png)
 
 - Le titre de la page et le type financier sont les seuls champs obligatoires. CiviCRM est livré avec quatre types financiers standards, mais vous pouvez en [créer plus](../contributions/concepts-clés-et-configurations) pour répondre aux besoins comptables de votre organisation :
 - Lier cette page de contribution à une [campagne](../campaign/what-is-civicampaign). (Optionnel)
@@ -58,7 +58,7 @@ Vous allez ensuite à l'onglet (Contributions) **Montants**. Toutes les autres f
 
 ### Onglet Montants 
 
-![Contributions Amounts Page](../img/civicontribute-online-contribution-amounts.png)
+![Contributions Amounts Page](/img/civicontribute-online-contribution-amounts.png)
 
 - La case **Exécuter les transactions monétaires en temps réel** est cochée par défaut.
 Vous devez décochez cette case si vous utilisez cette page de contribution pour une inscription gratuite ou pour solliciter des dons en nature (non monétaires) ou si vous voulez que tous les utilisateurs ** soumettent leurs paiements hors ligne.
@@ -94,7 +94,7 @@ Les pages de contribution incluent toujours un champ d'adresse e-mail obligatoir
 
 Lorsque vous modifiez ou créez un nouveau profil, vous pouvez utiliser l'interface glisser-déposer du profil représentée ici.
 
-![image](../img/Contribution-page-edit-profile2.gif)
+![image](/img/Contribution-page-edit-profile2.gif)
     
 !!! AVERTISSEMENT: Si vous modifiez un profil existant lors de la configuration de votre page Contribution, les modifications que vous apportez s'appliqueront partout où ce profil est utilisé. Ainsi, sauf si un profil existant **correspond exactement à vos besoins, copiez le profil, puis renommez et modifiez la copie selon les besoins.    
 

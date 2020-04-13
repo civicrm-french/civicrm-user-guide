@@ -10,7 +10,7 @@ Les jetons dans CiviCRM sont l'équivalent des champs de fusion de courrier. Cel
 
 Si la plupart des jetons affichent une donnée de la base, d'autres sont conçus pour remplir une tâche particulière dans les courriels, tels qu'un lien vers une page de désinscription. Certains jetons ne sont disponibles que pour la diffusion massive de courriel, tel que celui fournissant un lien vers la page en ligne du message. 
 
-![image](../img/Tokens-4.5.png)
+![image](/img/Tokens-4.5.png)
 
 ### Jeton de contrôle
 

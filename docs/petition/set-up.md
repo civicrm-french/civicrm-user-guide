@@ -55,4 +55,4 @@ Lorsque vous avez créé les deux profils, vous êtes prêt à créer une pétit
 
 2. Cliquer sur **Enregister** pour sauvegarder les informations de la pétition.
 
-![image](../img/petition_new.png)
+![image](/img/petition_new.png)

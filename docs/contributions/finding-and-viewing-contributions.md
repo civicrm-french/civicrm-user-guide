@@ -4,11 +4,11 @@ La page principale ou tableau de bord de CiviContribute résume les contribution
 
 Différentes dispositions sont disponibles pour l'affichage des résumés. La capture d'écran suivante montre la contribution la plus récente à une campagne à l'aide de l'onglet "Disposition de la table"
 
-![ContactSummary1a](../img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1a-en.png)
+![ContactSummary1a](/img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1a-en.png)
 
 Vous pouvez également afficher des diagrammes à barres ou à secteurs pour comparer les totaux de cotisations entre plusieurs mois d'une année donnée et d'une année à l'autre en cliquant sur l'onglet "Disposition du diagramme".
 
-![ContactSummary1b](../img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1b-en.png "ContactSummary1b")
+![ContactSummary1b](/img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1b-en.png "ContactSummary1b")
 
 Enfin, vous pouvez ajouter n'importe quel nombre d'instances de rapport de contribution à votre tableau de bord personnel CiviCRM. Ceux-ci peuvent inclure un résumé des histogrammes des contributions cumulées par type financier ou mensuel, une liste des 10 principaux donateurs, etc... Reportez-vous à la section _Rapports_ pour plus de détails sur l'ajout de rapports ("dashlets") à votre tableau de bord personnel.
 
@@ -19,13 +19,13 @@ Par exemple, si vous voulez envoyer un cadeau à toutes les personnes qui ont do
 
 La recherche **Rechercher des contributions** vous permet d'effectuer une recherche en fonction des données de contribution et des enregistrements de contribution. Il se trouve à **Contributions> Trouver des contributions**.
 
-![Contribution Find Screenshot](../img/contributions-find-search.png)
+![Contribution Find Screenshot](/img/contributions-find-search.png)
 
 Vous pouvez effectuer une recherche en fonction d'un certain nombre de critères, tels que la période, le montant de la contribution, le statut de la contribution, etc... Les contributions doivent correspondre à tous les critères spécifiés pour être renvoyées. Par exemple, si vous recherchez le type de don "Type de don" et la plage de dates "1er janvier au 31 mai", les contributions répondant aux deux critères seront retournées. Les plages de dates relatives telles que "Dernier mois" ou "Dernière année" sont souvent très utiles.
 
 En plus du sous-ensemble d'enregistrements résultant de la recherche, l'écran des résultats d'une "Recherche de contributions" affiche le montant total, le nombre de contributions, la moyenne des contributions et le mode pour les résultats de la recherche.
 
-  ![Screen shot batch update from search](../img/contributions-find-editcriteria.png)
+  ![Screen shot batch update from search](/img/contributions-find-editcriteria.png)
 
 Vous pouvez sélectionner une action à effectuer à partir du menu **Actions** dés que vous avez sélectionné tout ou un sous-ensemble des résultats. Vous pouvez:
  

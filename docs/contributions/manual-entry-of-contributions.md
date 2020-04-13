@@ -14,7 +14,7 @@ Pour entrer manuellement une contribution pour un contact dans votre base de don
 3. Cliquez sur **Enregistrer la contribution (Chèque, Espèces...)**. Si vous avez configuré un processeur de paiement qui autorise les transactions par carte de crédit directement sur votre site, vous pouvez sélectionner l'option **Soumettre la carte de crédit** et traiter le paiement immédiatement.
 4. Remplissez le nouveau formulaire de contribution. La capture d'écran suivante montre le formulaire de contribution hors ligne (c'est-à-dire les contributions par chèque, espèces, etc.). Si vous avez choisi d'enregistrer une contribution par carte de crédit, le formulaire de carte de crédit est presque identique à l'exception des champs liés au paiement.
 
-![Image](../img/New%20Contribution%20by%20Contact.png)
+![Image](/img/New%20Contribution%20by%20Contact.png)
 
 5. Notez le type financier, le montant, la date de réception (la date par défaut est la date du jour), la date de réception (indiquée sur le reçu généré par le système) et le statut (la valeur par défaut est Terminé). Tous les champs personnalisés pour les contributions apparaîtront également sur ce formulaire.
 6. Le champ **Bénéficiaire (Soft Credit To)** fonctionne avec les Pages de Campagne Personnelles (PCP) qui exploitent la participation de vos contacts pour les campagnes. Lorsque vous saisissez un don manuellement sur le formulaire de contribution du contact, vous pouvez l'attribuer à un bénéficiaire propriétaire du PCP. Il y a plus d'informations sur les PCP et les pages de collecte de fonds de campagne dans le chapitre "Configuration" de la section CiviContribute.
@@ -44,7 +44,7 @@ Créez un nouveau lot pour conserver les multiples paiements que vous souhaitez 
 
 Dans le menu, cliquez sur **Contributions> Entrée de données par lots** ou **Adhésion> Entrée de données par lots**.
  
-![image](../img/New%20Data%20Entry.png)
+![image](/img/New%20Data%20Entry.png)
 
 Entrez les informations suivantes:
 
@@ -58,13 +58,13 @@ Entrez les informations suivantes:
 
 Vous pouvez modifier ou supprimer des informations sur les lots ultérieurement en retournant à l'écran **Entrée de données par lots**, puis en cliquant sur **Modifier** ou **Supprimer** à côté du lot souhaité.
 
-![image](../img/CiviCRM-Contributions-everydaytasks-batches-lists.jpg)
+![image](/img/CiviCRM-Contributions-everydaytasks-batches-lists.jpg)
 
 ### 2. Saisie de paiements de contribution, d'adhésion ou don (chèque, espèces, etc.) 
 
 Dès que vous avez entré les informations sur le lot, vous pouvez commencer à saisir des paiements sur chaque ligne.
 
-![image](../img/CiviCRM-Contributions-everydaytasks-batchentrycontrib.jpg)
+![image](/img/CiviCRM-Contributions-everydaytasks-batchentrycontrib.jpg)
 
 Il y a huit champs qui apparaissent pour tous les lots:
 
@@ -124,7 +124,7 @@ Si le nombre total ou le nombre d'éléments ne correspondent pas aux valeurs qu
 
 - Vous pouvez continuer à saisir ou modifier les paiements pour le lot, puis **Valider et traiter le lot** à nouveau.
 
-![image](../img/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.jpg)
+![image](/img/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.jpg)
 
 
 ### Recherche de cotisations, d'adhésions ou de promesses de dons dans des lots vérifiés et traités 
@@ -149,7 +149,7 @@ Pour modifier le profil utilisé lorsque vous souhaitez créer un nouveau contac
 
 **!!! CONSEIL:** Les profils réservés pour **Nouveau individuel, Nouvelle organisation** et **Nouveau ménage** sont utilisés dans d'autres domaines de CiviCRM. Sachez que, si vous modifiez ces profils pour une utilisation avec les **Lots**, les  modifications que vous faites, apparaîtront également sur d'autres écrans permettant de créer un nouveau contact en ligne.
 
-  ![image](../img/CiviCRM-Contributions-SetUp-new-individual-profile.jpg)
+  ![image](/img/CiviCRM-Contributions-SetUp-new-individual-profile.jpg)
   
   Ci-dessus, la configuration par défaut de CiviCRM pour le profil "Nouveau individuel", qui est utilisée lorsque vous choisissez de créer un nouveau contact individuel lors de la saisie par lot de cotisations ou de paiements d'adhésion.
 
@@ -158,11 +158,11 @@ Pour modifier le profil des champs d'informations que vous souhaitez collecter p
 - Allez dans le menu et cliquez sur **Administrer> Personnaliser les données et les écrans> Profils**, puis cliquez sur l'onglet **Profils réservés**. Cliquez sur **Champs** à côté du profil **Entrées de Contribution par lots** ou du profil **Entrées d'adhésion par lots**.
 - Vous pouvez ensuite ajouter, modifier ou réorganiser les champs de ce profil. Par ex. vous pouvez avoir d'autres champs de contribution personnalisés que vous souhaitez afficher dans la grille d'entrée de l'entrée de lot. Pour en savoir plus, lisez [Profils](../organising-your-data/profiles)
 
-  ![image](../img/CiviCRM-Contributions-SetUp-contribution-batch-entry-profile.jpg)
+  ![image](/img/CiviCRM-Contributions-SetUp-contribution-batch-entry-profile.jpg)
   
   Ci-dessus, la configuration par défaut de CiviCRM pour le profil "Entrées de données par lots", utilisée lorsque vous enregistrez des informations sur la contribution ou le paiement de don d'un contact.
 
-  ![image](../img/CiviCRM-Contributions-SetUp-membership-batch-entry-profile.jpg)
+  ![image](/img/CiviCRM-Contributions-SetUp-membership-batch-entry-profile.jpg)
   
   Ci-dessus, la configuration par défaut de CiviCRM pour le profil "Entrées d'adhésion par lots", utilisée lorsque vous enregistrez des informations sur le paiement de l'adhésion d'un contact.
 

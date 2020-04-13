@@ -31,15 +31,15 @@ Insérer une image dans un courriel
 
 Cliquez sur le **bouton image** de votre éditeur WYSIWYG.
 
-![](../img/Screen%20Shot%202015-04-25%20at%203.06.40%20PM.png)
+![](/img/Screen%20Shot%202015-04-25%20at%203.06.40%20PM.png)
 
 La fenêtre *Propriétés de l'image* apparait. Cliquez sur **Parcourir le serveur**.
 
-![](../img/civimail_window%20to%20browse%20server%202.jpg)
+![](/img/civimail_window%20to%20browse%20server%202.jpg)
 
 Dans la colonne de gauche sont affichés les dossiers. Si l'image dont vous avez besoin est déjà disponible sur le serveur, naviguez jusqu'à elle et sélectionnez-là. Sinon, cliquez sur **Envoyer** pour choisir un fichier sur votre ordinateur local.
 
-![](../img/civimail_file%20directory%203.jpg)
+![](/img/civimail_file%20directory%203.jpg)
 
 Pour insérer, double-cliquez sur l'image souhaitée. Cela vous fera revenir sur la fenêtre *Propriétés de l'image* de votre courriel.
 
@@ -47,4 +47,4 @@ Vous pouvez alors ajuster la taille et l'alignement de votre image, ainsi que sa
 
 Cliquer sur **OK** pour insérer l'image.
 
-![](../img/civimail_Insert%20image%206.jpg)
+![](/img/civimail_Insert%20image%206.jpg)

@@ -11,7 +11,7 @@ Le répertoire des extensions CiviCRM
 Le répertoire des extensions est disponible à l'adresse 
 [https://civicrm.org/extensions](https://civicrm.org/extensions). On y retrouve une liste d'extensions développées par la communauté et qui ont été rendues librement et gratuitement disponible à l'ensemble de la communauté. Par défaut, les extensions sont affichées dans l'ordre croissant de popularité (calculé selon le nombre d'instances de CiviCRM qui utilisent l'extension et qui rapportent leurs statistiques).
 
-![image](../img/z-extensions-website_1.png) 
+![image](/img/z-extensions-website_1.png) 
 
 Les extensions sont organisées en deux grandes catégories. Les extensions « natives » fonctionnent avec n'importe quel système de gestion de contenu (SGC). L'autre type sont des extension spécifiques à un type de SGC, généralement pour ajouter des fonctionnalités pour mieux intégrer CiviCRM avec le SGC. Selon votre SGC, ces extensions porteront peut-être le nom de « module » dans le monde de Drupal ou encore « plugin » dans le monde WordPress.
 
@@ -22,7 +22,7 @@ Installer des extensions
 
 Lorsque CiviCRM est correctement configuré, des extensions peuvent être installées directement à partir de l'interface administrative. Dirigez-vous à **Administrer > Paramètres système > Extensions**. Vous devriez y voir une liste d'extensions qui sont compatibles avec votre version de CiviCRM. À noter que vous pourriez ne pas voir toutes les extensions du répertoire sur CiviCRM.org si elles ne sont pas compatibles.
 
-![image](../img/z-extensions-ui.png)
+![image](/img/z-extensions-ui.png)
 
 Si la liste est vide, il se pourrait que votre système n'est pas correctement configuré pour gérer les extensions. Consultez votre administrateur système si c'est le cas.
 

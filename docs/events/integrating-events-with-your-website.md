@@ -18,7 +18,7 @@ Dans Joomla! 2.5x et 3.xx vous pouvez établir un lien vers votre événement en
 
 Dans WordPress, vous pouvez également utiliser l'icône CiviCRM 'code court' pour insérer le formulaire d'inscription d'événement dans la page ou le message :
 
-![image](../img/Wordpress-Shortcodes-small.png)
+![image](/img/Wordpress-Shortcodes-small.png)
 
 Dans Drupal, le module **views** offre de nombreuses options pour afficher des listes de contenu, y compris la possibilité de créer une liste de mise à jour automatique des événements à venir. Consultez  *Intégration avec Drupal*  dans le chapitre *Intégration de site Web* pour plus de détails.
 

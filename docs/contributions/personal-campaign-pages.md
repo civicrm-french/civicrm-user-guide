@@ -52,7 +52,7 @@ Limitations
 - Les e-mails automatisés (messages système) envoyés à l'administrateur PCP et au propriétaire de la page, à différentes étapes d'une campagne, peuvent être modifiés. Une connaissance pratique de Smarty 2 ([http://www.smarty.net/](http://www.smarty.net/)) est requise. 
 La notification par défaut pour le propriétaire du PCP lorsqu'un don est reçu est:
 
-![image](../img/PCP%20owner%20notificationV2.PNG)
+![image](/img/PCP%20owner%20notificationV2.PNG)
 
 **Création**
 
@@ -73,7 +73,7 @@ Une fois la création d'une PCP activée, il existe deux façons de créer un PC
 !!! Notez :
 **Le bouton d'invitation:**
 
-![image](../img/pcp-contribute-thank-you.png)
+![image](/img/pcp-contribute-thank-you.png)
 
 **Le lien invitation:**
 

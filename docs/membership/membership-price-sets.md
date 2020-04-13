@@ -8,14 +8,14 @@ Ce chapitre décrit comment configurer la gestion des tarifications afin que vos
 
 Voici un exemple de la façon dont une tarification d'adhésion, qui offre toutes ces options, peut ressembler:
 
-![image](../img/4.5_membership_price_sets_complete_price_set.PNG) 
+![image](/img/4.5_membership_price_sets_complete_price_set.PNG) 
  
 La tarification **du Club de natation de Donwell Swim** se compose de cinq **champs de tarif** : 
 Adhésion à l'association nationale, Adhésion annuelle au club, Boutique du club, Billets de tombola et dons.
 
 Il y a deux types d'adhésions possible:
 
-![image](../img/4.5_membership_price_sets_types_1.PNG) 
+![image](/img/4.5_membership_price_sets_types_1.PNG) 
  
 Ces types d'adhésions doivent être définis avant de créer la tarification.
 (Voir le chapitre *Définition des adhésions*)..
@@ -29,7 +29,7 @@ Les tarifications peuvent être configurés de plusieurs façons. Vous devez tou
 Créer une nouvelle tarification 
 ------------------------
 
-![image](../img/4.5_membership_price_sets_new_new_price_set_1.PNG) 
+![image](/img/4.5_membership_price_sets_new_new_price_set_1.PNG) 
 
 1.  Menu **Adhésions> Nouvelle tarification** ou **Administrer > CiviMember> Nouvelle tarification**.
 2.  Entrez le nom de cette tarification **Titre**. Ce nom sera affiché à la fois au public dans le cadre du tarif proposé et au personnel administratif lorsqu'il doit choisir entre les ensembles de tarifs. Assurez-vous que le nom soit suffisamment descriptif pour les deux types d'utilisateurs.
@@ -40,7 +40,7 @@ Créer une nouvelle tarification
 
 Un formulaire  s'affiche ensuite pour créer le premier **Champ de tarif** de votre **Tarification**
 
-![image](../img/4.5_membership_price_sets_new_new_price_field_1.PNG) 
+![image](/img/4.5_membership_price_sets_new_new_price_field_1.PNG) 
 
 ### Creation d'un nouveau champ de tarif 
 
@@ -71,7 +71,7 @@ Conditions d'adhésion multiples :
 -------------------------
 La configuration du champ "National Membership" affiche le type de champ **Radio** ce qui illustre comment vous pouvez autoriser les contacts à s'inscrire à plusieurs types d'adhésions en même temps et .
 
-![image](../img/4.5_membership_price_sets_multi-term_1.PNG) 
+![image](/img/4.5_membership_price_sets_multi-term_1.PNG) 
 
 Dans le champ **Type d'adhésion**, vous sélectionnez l'option souhaitée dans une liste déroulante parmi les types d'adhésion que vous avez configuré. Lorsque vous sélectionnez un type d'adhésion spécifique, **le nombre de périodes** est rempli automatiquement à 1, **Montant** et **Type financier** sont automatiquement remplis en fonction de la définition du **Type d'adhésion**. Toutes ces valeurs peuvent être modifiées au besoin. *Le type d'adhésion de l'Association nationale des associations a une durée de 1 an avec un droit minimum de 100 $.*
 
@@ -86,7 +86,7 @@ Membre de plusieurs organisations
 
 En plus des frais d'association nationale, les contacts peuvent s'inscrire à l'adhésion au club de natation. Le type de champ **Selection** a été choisi pour ce champ.
 
-![image](../img/4.5_membership_price_sets_second_organisation_1.PNG) 
+![image](/img/4.5_membership_price_sets_second_organisation_1.PNG) 
 
 Rappel, lorsque vous sélectionnez un type d'adhésion spécifique dans une liste déroulante, **le nombre de périodes** est rempli automatiquement à 1 , **Montant** et **Type financier** sont auto-remplis en fonction de la définition du type d'adhésion. Vous pouvez modifier l'une de ces valeurs comme vous le souhaitez.
 Comme nous n'avons pas inclu le tarif de chaque option dans son **Label**, nous devons avoir **Afficher le montant?** coché.
@@ -100,7 +100,7 @@ Vous pouvez également configurer les champs de tarif pour offrir des services s
 
 - Il existe trois champs de prix hors adhésion dans notre exemple. Le premier offre une sélection de matériel de natation de marque club. Le type de champ **checkbox** permet aux personnes de choisir plusieurs éléments parmi les options proposées.
 
-![image](../img/Membership%20Pricesets%20non-member%20field_1.PNG) 
+![image](/img/Membership%20Pricesets%20non-member%20field_1.PNG) 
 
 Comme ce sont des produits plutôt que des adhésions, les champs **Type d'adhésion** et **Nombre de périodes** restent vides. Vous devez définir le **Label**, **Montant** et **Type financier** pour chaque option.
 
@@ -110,18 +110,18 @@ Si vous regardez les captures d'écran précédentes des trois champs de prix d�
 
 Le quatrième type de champ de saisie est **Texte/Quantité numérique** et il ne peut être utilisé que pour des options hors adhésion. Avec ce type de champ, vous incluez habituellement le **prix unitaire** de l'article offert dans l'étiquette. Comme indiqué dans l'exemple suivant ou dans l'aide du **champ**. Cela signifie que **Afficher le Montant?** ne devrait pas être coché.
 
-![image](../img/4.5_membership_price_sets_raffle_dates_fields_used.PNG)
+![image](/img/4.5_membership_price_sets_raffle_dates_fields_used.PNG)
 
 Ce qui affichera : 
 
-![image](../img/membership_price_set_raffle_preview_1.PNG)
+![image](/img/membership_price_set_raffle_preview_1.PNG)
 
 Ce champ de prix ne sera visible que entre les dates **Actif le** et **Expire le**  nous permettant de nous assurer que les tickets de tombola ne peuvent être achetés que pendant la période de vente autorisée selon les règlements en vigueur.
 
 Le champ de prix final est configuré pour permettre aux visiteurs de donner un don. Notez que le **Prix unitaire** est égal à 1 et qu'il n'est pas inclus dans l'intitulé du champ bien que le symbole de la devise y soit (€). La case **Afficher le Montant?** n'est pas coché. C'est la meilleure configuration pour permettre de choisir le montant des dons par les visiteurs.
 
-![image](../img/4.5_membership_price_sets_donation.PNG)
+![image](/img/4.5_membership_price_sets_donation.PNG)
 
 Pour rappel, voici comment tous ces champs apparaissent sur l'écran final:
 
-![image](../img/Membership%20priceset%20final.PNG) 
+![image](/img/Membership%20priceset%20final.PNG) 

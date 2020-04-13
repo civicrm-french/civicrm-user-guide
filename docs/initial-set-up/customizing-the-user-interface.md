@@ -18,7 +18,7 @@ Les options incluses dans les champs déroulants utilisés dans les formulaires 
 -   Type de site Web : (exemple : Personnel,Entreprise, Facebook, Linkedln, Twitter,...)
 -   Type d'adresse : (exemple : Principale, domicile, Bureaux, Compta, Facturation,..). Notez que l'adresse de facturation est attribuée lorsque les membres contribuent ou paient les frais d'inscription et d'inscription en ligne. Le type d'adresse ne doit pas contenir d'espaces. (ex : "Résidence secondaire", n'est pas permis).
 
-![image](../img/Fr_listes_deroulantes.PNG)
+![image](/img/Fr_listes_deroulantes.PNG)
 
 Les choix des Moyens de communication préférés (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition/saisie de contact peuvent également être modifiés. Aller à **Administrer> Communications> Méthodes de communication préférées**.
 
@@ -32,13 +32,13 @@ Modification des préférences d'affichage
 S'il existe des types d'activités ou des catégories de données que vous ne souhaitez pas utiliser, vous pouvez faire que ces champs et ces onglets ne s'affichent pas à vos utilisateurs. Ce qui permet de faciliter l'utilisation quotidienne des utilisateurs. Pour cela allez à : **Administer > Personnaliser les données et écrans > Préférences d'affichage**.
 Ensuite : **Informations à afficher** : vous pouvez modifier les onglets disponibles en cochant ou décochant les cases appropriées pour voir ce qui est nécessaire lorsque vous consulterez les enregistrements de contacts.
 
-![Infocontact](../img/FR_contatct_afficher.PNG)
+![Infocontact](/img/FR_contatct_afficher.PNG)
 
 Par exemple, si votre organisation n'utilise pas les Dossiers ou les Subventions, vous pouvez les décocher. Ces onglets ne s'afficheront plus dans l'interface utilisateur. Si vous décidez plus tard de les utiliser, il suffit de ré-afficher l'onglet en cochant la case appropriée. Les informations stockées dans les composants que vous masquez restent dans votre base de données. Vous pouvez masquer les composants que vous avez déjà utilisés, et lorsque vous choisirez de les afficher à nouveau, toutes les informations s'afficheront comme auparavant.
 
 Vous pouvez choisir les informations qui apparaitront sur les fiches de contact en cochant ou décochant les cases appropriées en regard de **Information éditables**:
 
-![Display Preferences Editing Contacts](../img/fr_contact_editables.PNG)
+![Display Preferences Editing Contacts](/img/fr_contact_editables.PNG)
 
 Par exemple, si votre organisation ne collecte pas d'informations démographiques ou de préférences de communication, vous pouvez les décocher pour rationaliser l'écran d'édition. Comme pour les préférences des *informations à afficher*, toutes les informations contenues dans les champs que vous choisissez de ne pas afficher restent dans votre base de données et vous pouvez choisir de l'afficher à tout moment en cochant de nouveau les cases de ces paramètres.
 
@@ -46,7 +46,7 @@ Par exemple, si votre organisation ne collecte pas d'informations démographique
 
 L'interface utilisateur CiviCRM fait un usage étendu des boîtes de dialogue contextuelles (popup) pour permettre une visualisation rapide et une édition facile des données. Vous pouvez désactiver cette fonctionnalité et limiter l'interface à la navigation traditionnelle en désélectionnant la case à cocher **Enable popup** dans **Administrer> Personnaliser les données et les écrans> Préférences d'affichage **. Notez que CiviCRM sera plus lent avec cette fonction désactivée car chaque formulaire nécessitera une charge de page complète dans le navigateur.
 
-![Display Preferences Disabling Popup Forms](../img/Fr_Contact_popup.PNG)
+![Display Preferences Disabling Popup Forms](/img/Fr_Contact_popup.PNG)
 
 Personnalisation des préférences de recherche
 ---------------------------------------------
@@ -82,7 +82,7 @@ Vous pouvez remplacer les paramètre par défaut et définir la plage de dates a
 
 Par défaut, CiviCRM fournit des fourchettes de date sur des champs de date spécifiques.
 
-![image](../img/Fr_date_avances.PNG)
+![image](/img/Fr_date_avances.PNG)
 
 Par exemple, la fourchette par défaut pour les dates d'activité est 20 ans avant l'année en cours jusqu'à 10 ans au-delà de l'année en cours. Si vous souhaitez suivre les activités qui ont eu lieu, disons,...il ya 25 ans !, vous devez modifier le nombre d'années d'activités à consulter pour vos utilisateurs finaux.
 
@@ -140,7 +140,7 @@ Pour cela:
 
 Lorsque vous effectuez une **Recherche multicritères**, utilisez le menu déroulant **Views For Display Contacts** en haut à droite de la page pour sélectionner votre profil (voir image ci-dessous).
 
-![Customize Search Views](../img/configure-customize-search-views.png)
+![Customize Search Views](/img/configure-customize-search-views.png)
 
 Utilisation de "Remplacement de mots" pour modifier la terminologie
 -------------------------------------------------------------------

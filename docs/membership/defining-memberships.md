@@ -20,7 +20,7 @@ Pour démarrer la configuration sur les types d'adhésions :
 1.  Allez à : **Adminitrer>CiviMember>Types d'adhésion**.
 2.  Selectionner : **Ajouter un type d'adhésion**
 
-![image](../img/new-membership-type.png)
+![image](/img/new-membership-type.png)
 
 -   **Nom**:
 Le nom est affiché dans tout le système, tant sur les pages publiques que dans les pages de backend. Passez donc un peu de temps à penser à un nom qui est approprié aux deux publics. Il peut être changé ultérieurement (bien que cela puisse entraîner un travail supplémentaire dans la mise à jour des reçus d'adhésion s'ils ont été personnalisés en fonction des noms d'adhérents)
@@ -50,7 +50,7 @@ Le type par défaut "Cotisation" convient à de nombreuses organisations. Toutef
     que la transaction financière correspondante indique la valeur monétaire 
     associée à cette adhésion..
     
-![image](../img/membership_contribution.png)
+![image](/img/membership_contribution.png)
 
     CiviCRM respecte cette distinction en enregistrant le dossier d'adhésion
     sous l'onglet adhésion, l'opération financière sous la rubrique Contribution,
@@ -117,7 +117,7 @@ Afin de supporter cette fonctionnalité, nous définissons un **Type de relation
      - L'écran d'aide contextuelle donne des exemples de types de relation à sélectionner pour cette fonctionnalité.
      - Une fois que vous avez sélectionné un type de relation, vous entrez un nombre dans le champ **Max de relations** pour définir le nombre maximum d'adhésions héritées liées à chaque membre principal. Il serait utile, dans l'exemple ci-dessus, de limiter le nombre d'employés qui peuvent devenir membres en raison de leur emploi à 10 maximum.
    
- ![image](../img/Membership_relationship_type.png) 
+ ![image](/img/Membership_relationship_type.png) 
 
     Avec les adhésions héritées, nous distinguons le membre principal et les membres 
     qui héritent de leur appartenance en raison de leur relation avec le membre principal.
@@ -148,13 +148,13 @@ Vous pouvez forcer un statut d'adhésion en sélectionnant **Forcer le statut** 
 
 Sous **Administer> CiviMember> Règles des statuts d'adhésion**, vous trouverez un résumé des règles d'état existantes.
 
-![image](../img/z-sprint14-membership%20status.png)
+![image](/img/z-sprint14-membership%20status.png)
 
 Pour décider quel statut doit être appliqué, CiviCRM cherche à voir si l'adhésion a un statut prioritaire. Si c'est le cas, cela s'applique à ce statut. Si ce n'est pas le cas, le système liste les statuts en commençant par le haut de la page "Règles de statut d'adhésion" jusqu'à ce qu'il en trouve un qui est valide. C'est-à-dire, si la date du jour se situe entre le début et la fin de l'état de l'adhésion en haut de la liste. Si c'est le cas, il applique ce statut, sinon il passe au prochain état et répète ce processus jusqu'à ce qu'il trouve un état qui correspond.
 
 Lorsque vous modifiez ou ajoutez un nouveau statut de membre, le formulaire suivant apparaît.
 
-![image](../img/Fr_statut_adhesion.png) 
+![image](/img/Fr_statut_adhesion.png) 
 
 Vous pouvez ajouter de nouveaux statuts et modifier les statuts existants (à l'exception de En attente et Décédé) en utilisant ce formulaire. Pour créer un nouveau statut, vous devez préciser quand le statut doit commencer et arrêter. Cela se fait par rapport à un événement d'adhésion (c'est-à-dire la date d'inscription, la date de début ou la date de fin). Par exemple. «Un mois après la date de début de l'adhésion serait configuré avec «date de début» et «1 mois» ou «cinq jours avant la date de fin d'adhésion» serait configuré avec «date de fin» et «-5 jours».
 

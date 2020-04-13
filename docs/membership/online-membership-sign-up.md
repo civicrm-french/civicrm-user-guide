@@ -14,7 +14,7 @@ Notez que, même si votre adhésion est gratuite, vous devez toujours utiliser u
 
 Les pages de contribution sont très puissantes et ont de nombreuses options regroupées en onglets. Dès que vous avez donné un nom à votre page de contribution, ces onglets sont affichés en haut de la page lorsque vous travaillez dans le reste du processus de configuration.
 
-![image](../img/membership-tabs.png)
+![image](/img/membership-tabs.png)
 
 Dans ce chapitre, nous nous concentrerons sur les onglets et les options des pages de contribution qui sont les plus utiles pour les adhésions. Quelques onglets méritant d'être mis en évidence incluent l'onglet Adhésions, contenant la majeure partie de la configuration de l'adhésion. L'onglet Profils vous permet de collecter des informations sur les personnes ou les organisations qui remplissent votre formulaire d'adhésion.
 
@@ -32,13 +32,13 @@ Cet onglet vous permet également d'inclure un message d'introduction à affiche
 L'onglet titre contient une case à cocher "*Permettre aux individus de contribuer et/ou d'adhérer au nom d'une organisation*" qui  permet  aux utilisateurs d'identifier une organisation comme donateur ou adhérent, ce qui est la manière recommandée d'offrir des adhésions aux organisations. La contribution ou l'adhésion sera attribuée à cette organisation. Lorsque cette case est activée, l'utilisateur est invité à sélectionner un profil (voir le chapitre des profils pour plus d'informations) utilisé pour collecter des informations sur l'organisation. Cette inscription pour une organisation peut être facultative ou obligatoire.
 Une fois cette page remplie cliquer sur **Suivant**
 
-![image](../img/Title%20settings%201%20.jpg)
+![image](/img/Title%20settings%201%20.jpg)
 
 ### L'onglet Montant 
 
 L'onglet des montants vous permet de définir diverses options financières, y compris le processeur de paiement qui est utilisé sur la page. Notez que vous pouvez sélectionner plus d'un processeur de paiement pour donner le choix aux personnes qui acceptent. Pour plus d'informations sur la configuration des processeurs de paiement et sur les points à considérer lors du choix d'un processeur de paiement, voir le chapitre *Processeurs de paiement*.
 
-![image](../img/contribution%20amounts.jpg)
+![image](/img/contribution%20amounts.jpg)
 
 Notez que l'onglet des montants *n'est pas* l'endroit où les frais d'adhésion sont configurés : ils sont configurés dans l'onglet Adhésions. Si vous souhaitez utiliser cette page pour collecter des montants d'adhésion et *ne* souhaitez pas solliciter des contributions supplémentaires, laissez la case **Section des montants de contribution activée** non cochée. Si vous *désirez solliciter des contributions en plus des frais d'adhésion*, cochez la case et ajoutez des options de contribution proposées ou configurez un ensemble de prix de contribution*.
 
@@ -52,11 +52,11 @@ Puisque nous utilisons cette page de contribution pour l'inscription et le renou
 
 Les zones de texte (Message d'introduction — Nouvelles adhésions et Message d'introduction — Renouvellements) vous permettent d'ajouter du texte qui sera affiché lorsque cette page est utilisée pour l'inscription initiale et pour les renouvellements. Lorsqu'un utilisateur enregistré avec une adhésion actuelle ou expirée affiche la page d'inscription de membre, CiviCRM remplace automatiquement la page d'inscription de membre par une page de renouvellement d'adhésion qui contient le texte de la zone de renouvellement.
 
-![image](../img/membership%20signup%201.jpg)
+![image](/img/membership%20signup%201.jpg)
 
 Après ces zones de texte, vous trouverez quelques options que vous pouvez utiliser pour configurer les types d'adhésion disponibles sur le formulaire d'adhésion.
 
-![image](../img/MembershipTabOnlineCintribConfiguration.PNG)
+![image](/img/MembershipTabOnlineCintribConfiguration.PNG)
 
 Envisagez d'abord les cas d'utilisations simples. Sélectionnez les types d'adhésion qui devraient être disponibles sur la page, ceux qui devraient être par défaut et qui peuvent être renouvelés automatiquement (vous devrez configurer vos types d'adhésion comme renouvellement automatique avec un processeur de paiement qui supporte les paiements périodiques automatiques).
 
@@ -78,22 +78,22 @@ Une fois que le visiteur du site a complété le formulaire d'inscription ou de 
 
 Vous pouvez également choisir l'envoi "CC ou BCC" pour chaque reçu d'adhésion à un membre du personnel afin qu'ils soient alerté immédiatement chaque fois que quelqu'un devient membre.
 
-![image](../img/membership%20page%20receipt%201.jpg)
+![image](/img/membership%20page%20receipt%201.jpg)
 
-![image](../img/membership%20page%20receipt%202.jpg)
+![image](/img/membership%20page%20receipt%202.jpg)
 
 ### L'onglet Recommander à un ami
 
 CiviCRM vous permet d'ajouter une fonction "Recommander à un ami" à la page de remerciement.  
 La page permet à vos membres de partager des informations sur votre organisation avec leurs amis en leur envoyant un lien vers votre site. Les amis qui sont ainsi informés de l'inscription et l'adhésion seront également ajoutés à CiviCRM s'ils n'existent pas déjà et leur champ source montrera qu'ils ont été ajoutés via une recommandation d'un ami. 
 
-![image](../img/tell%20a%20friend.jpg)
+![image](/img/tell%20a%20friend.jpg)
 
 ###Collecte d'informations dans le cadre de l'adhésion (onglet Profils)  
 
 Vous pouvez utiliser des profils pour recueillir des informations sur les membres qui remplissent le formulaire d'inscription. Par défaut, les pages de contribution ne comprennent qu'un champ de courrier électronique. L'ajout d'un profil au formulaire de contribution ajoutera, si besoin, plusieurs champs que CiviCRM affichera dans le formulaire d'inscription de membre. Vous pouvez utiliser des profils pour recueillir des informations supplémentaires sur le contact, par exemple leur adresse, leurs intérêts, etc. Si la personne qui s'inscrit pour devenir membre est connectée, ses champs de profil seront remplis avec les données de CiviCRM, le cas échéant. N'ajoutez pas de profil d'adhésion. La collecte de cette information se produit automatiquement pendant la procédure d'inscription en ligne.
 
-![image](../img/membership-profiles.png)
+![image](/img/membership-profiles.png)
 
 L'onglet profil vous permet de sélectionner un profil existant à inclure sur votre page d'adhésion, et si vous avez la permission, de modifier un profil existant ou de créer un nouveau profil à ajouter sur cette page.
 
@@ -107,7 +107,7 @@ L'onglet Primes de l'assistant de la page de contribution contrôle le texte d'i
 
 
 
-![image](../img/membership-profiles.png)
+![image](/img/membership-profiles.png)
 
 Test des pages d'adhésion  
 --------------------------------
@@ -136,7 +136,7 @@ Accédez à **Contributions**> **Gérer les Pages de Contribution**> cliquez sur
 
 *Ou* cliquez sur l'icône de raccourci Wordpress pour insérer un formulaire dans n'importe quelle page.
 
-![image](../img/Wordpress-Shortcodes-small.png)
+![image](/img/Wordpress-Shortcodes-small.png)
 
 ### Dans Joomla!
 La façon la plus directe d'afficher votre page d'inscription/renouvellement d'adhésion sur votre site Web dans Joomla est en créant un élément de menu.

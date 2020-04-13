@@ -17,7 +17,7 @@ Recherche rapide
 
 La manière la plus simple de trouver un contact spécifique consiste à utiliser la zone de recherche rapide qui apparaît dans le menu de navigation en haut à gauche de l'écran. Vous pouvez choisir de faire une recherche parmi plusieurs critères. Dès que vous cliquez dans la case, vous pouvez commencer à taper immédiatement pour utiliser la recherche par défaut : "Nom / E-mail".  Vous pouvez aussi cliquer à nouveau pour choisir plusieurs autres critères dans une liste déroulante. Les contacts correspondants au mot que vous entrez apparaîtront dans une liste déroulante sous la boîte.
 
-![recherche](../img/Fr_recherche_rapide.PNG)
+![recherche](/img/Fr_recherche_rapide.PNG)
 
 Par exemple, si vous recherchez avec Nom / Email et que vous avez laissé le caractère générique de recherche approximative activé, allez dans **Administer> Personnaliser les données et les écrans> Préférences de recherche** pour vérifier.
 
@@ -40,7 +40,7 @@ Recherche avancée
 ---------------
 La recherche avancée vous permet de rechercher dans toutes les informations que vous avez sur vos contacts. Par exemple, vous pourriez trouver «tous les contacts en Italie» ou «tous les membres du groupe adhérents». Si vous spécifiez deux catégories d'informations ou plus, la recherche affiche tous les contacts correspondant à toutes les catégories. Vous pouvez aussi combiner les deux critères mentionnés pour trouver «tous les membres du groupe adhérents en Italie».
 
-![recherche](../img/Fr_recherche_avancee.PNG)
+![recherche](/img/Fr_recherche_avancee.PNG)
 
 L'écran "Recherche avancée" est accessible depuis le menu de navigation  **Recherche> Recherche avancée**. Sur cet écran, les critères de recherche sont regroupés en sections qui font référence à différents types de données sur lesquelles vous pouvez effectuer une recherche, telles que des données d'adresse, d'activités, de notes et des informations provenant de composants tels que Contributions ou Evénements. Chaque groupe de critères est représenté sous la forme d'une barre bleue (connue sous le nom d'«accordéon» car elle s'élargit lorsque vous cliquez dessus). Par exemple, si vous souhaitez rechercher toutes les personnes de votre base de données de 16 à 18 ans, cliquez sur l'accordéon "Données démographiques". Lorsqu'il s'ouvre, vous pouvez spécifier la période de la date de naissance qui vous intéresse.
 
@@ -48,11 +48,11 @@ L'écran "Recherche avancée" est accessible depuis le menu de navigation  **Rec
 
 La Recherche avancée renvoie vos résultats en tant que "Vue par défaut". Vous pouvez obtenir un autre type d'affichage. Par exemple, vous pouvez rechercher sur l'activité Renouvellement d'adhésion pour trouver tous ceux qui ont renouvelé leur adhésion la semaine dernière, puis afficher les résultats sous la forme d'adhésions afin d'exporter le nom, l'adresse et la date d'expiration de l'adhésion et lister les membres concernés. Il suffit alors de sélectionner le type d'affichage souhaité dans la liste déroulante **Afficher les résultats en tant que**.
 
-![recherche](../img/FR_recherche_affichage_resultat.PNG)
+![recherche](/img/FR_recherche_affichage_resultat.PNG)
 
 #### Views for Display Contacts
 
-![Screen shot of Display Contacts](../img/user-interface-new-contact-view-profile.png)
+![Screen shot of Display Contacts](/img/user-interface-new-contact-view-profile.png)
 
 La recherche avancée vous permet de modifier les colonnes affichées dans vos résultats de recherche. Les colonnes par défaut sont Nom, Adresse, Ville, État, Code Postal, Pays, Email et Téléphone. Si vous souhaitez afficher un ensemble différent de colonnes (peut-être pour inclure un champ personnalisé ou supprimer une colonne dont vous n'avez pas besoin), créez un profil avec l'option de vues de recherche sélectionnée. Assurez-vous que les champs Visibilité de ce profil est activé comme "Exposer publiquement et pour les listes", et que le champ "colonne de résultats" soit activé. (Pour plus d'informations sur la création de profils voir le chapitre Profils de la section Configuration.)
 
@@ -60,11 +60,11 @@ Par exemple, vous pouvez inclure des colonnes pour le sexe et la date de naissan
 
 Créez un profil qui inclut la date de naissance, le sexe et les champs d'adresse.
 
-![Screen shot of Search View setting in a profile](../img/user-interface-profile-search-view-setting.png)
+![Screen shot of Search View setting in a profile](/img/user-interface-profile-search-view-setting.png)
 
-![Screen shot of Visibility setting in a profile](../img/user-interface-profile-search-view-setting-2.png)
+![Screen shot of Visibility setting in a profile](/img/user-interface-profile-search-view-setting-2.png)
 
-![Screen shot of a profile](../img/user-interface-new-contact-view-profile.png)
+![Screen shot of a profile](/img/user-interface-new-contact-view-profile.png)
 
 Pour en savoir plus sur la création de profils consultez la section *Profils* du chapitre *Organisation de vos données*.
 
@@ -76,11 +76,11 @@ L'opérateur de recherche détermine si vos critères sont combinés avec des in
 
 La recherche dans la corbeille vous permet de rechercher des contacts qui ont été supprimés mais pas supprimés définitivement. Lorsqu'un contact est supprimé, le contact et toutes les données associées sont déplacées vers la corbeille. Seuls les utilisateurs disposant de la permission appropriée pourront rechercher dans la corbeille et pourront restaurer le contact de la corbeille.
 
-![recherche](../img/Fr_recherche_corbeille.PNG)
+![recherche](/img/Fr_recherche_corbeille.PNG)
 
 ### Le filtre de plage de dates
 
-![Screen shot of Date Range Filter](../img/Fr_recherche_date.PNG)
+![Screen shot of Date Range Filter](/img/Fr_recherche_date.PNG)
 
 La plupart des recherches dans CIVICRM comprennent un filtre de plage de dates. Les images ci-dessous montrent deux exemples:
 
@@ -95,11 +95,11 @@ Par exemple, vous pouvez utiliser une recherche relative à la période pour tro
 -   Les participants aux événement de l'année (Période de référence : «Cette année»)
 -   Les contacts qui ont un certain âge
 
-![recherche age](../img/Fr_recherche_age.PNG)
+![recherche age](/img/Fr_recherche_age.PNG)
 
 Les filtres de dates relatives basés sur l'intervalle de temps «semaine» supposent que dimanche est le premier jour de la semaine. Ce n'est pas vrai dans tous les pays, par exemple en Europe et dans de nombreux pays de la région Asie / Pacifique le lundi est le premier jour de la semaine. Pour définir quel est le premier jour de la semaine, vous devez aller à **Administrer >> Localisation >> Format de date**.
 
-![Screen shot of how to change the first day of the week](../img/user-interface-searching-week-begins.png)
+![Screen shot of how to change the first day of the week](/img/user-interface-searching-week-begins.png)
 
 
 #### **Combinaison des critères de recherche**
@@ -112,7 +112,7 @@ Dans les groupes de critères qui vous permettent de cocher des cases pour plus 
 
 Avec des champs qui vous permettent de sélectionner plus d'une valeur dans une liste déroulante, les valeurs sont toujours combinées avec "OU". Par exemple, vous pouvez trouver des contacts qui vivent en Italie ou en Espagne.
 
-![Screen shot of combining search criteria](../img/user-interface-searching-states.png)
+![Screen shot of combining search criteria](/img/user-interface-searching-states.png)
 
 Constructeur de recherche
 -------------------------
@@ -134,7 +134,7 @@ Ce constructeur de recherches permet de choisir parmi un large éventail de crit
 Vous pouvez également combiner des critères de recherche avec plusieurs groupes AND et OR. Pour les critères AND (ce qui signifie de trouver les résultats correspondant à tous les critères spécifiés), cliquez sur **Autre champ de recherche** et entrez les critères sous **Inclure les contacts pour lesquels**. Pour les critères OU (c'est-à-dire pour trouver des résultats correspondant à l'un OU à l'autre critère), entrez un critère dans **Inclure également les contacts pour lesquels** et l'autre sous **Inclure également les contacts où**.
 L'exemple suivant recherchera des femmes nées après le 01 janvier 2000 OU membres du groupe"Amis du cinéma":
 
-![Constructeur de recherche](../img/Fr_recherche_constructeur.PNG)
+![Constructeur de recherche](/img/Fr_recherche_constructeur.PNG)
 
 Vos résultats de recherche contiendront le nom de chaque contact, ainsi qu'une colonne pour chaque critère de recherche que vous avez défini. Si vous exportez des résultats de recherche, le fichier d'exportation contiendra ces mêmes colonnes.
 
@@ -154,7 +154,7 @@ La plupart des composants CiviCRM proposent une recherche sur leurs propres donn
 
 Chaque recherche de composant possède sa propre liste d'Actions. Voir les sections *Composant* pour plus de détails.
 
-![recherche](../img/Fr_recherche_action.PNG)
+![recherche](/img/Fr_recherche_action.PNG)
 
 Notez que vous pouvez également utiliser la recherche multicritères en association avec **Afficher les résultats sous** pour rechercher en fonction des critères disponibles dans la recherche avancée. Par exemple, vous pouvez trouver tous les présents aux événements à partir des contacts qui sont également membres.
 
@@ -177,7 +177,7 @@ Lorsque vous utilisez la recherche avancée, si vous sélectionnez plusieurs gro
 
 Il existe également une recherche personnalisée intégrée très utile, «Inclure / Exclure des contacts dans un groupe ou une étiquette», qui vous permet de trouver des contacts qui se trouvent dans un groupe mais pas dans un autre. Vous la trouvez en allant à **Rechercher > Recherches personnalisées** dans le menu de navigation.
 
-![Include/Exclude Search](../img/Fr_recherche_inclure_exclure.PNG)
+![Include/Exclude Search](/img/Fr_recherche_inclure_exclure.PNG)
 
 En combinant les options Inclure et Exclure, vous pouvez trouver des contacts qui se trouvent dans un groupe, mais exclure uniquement les membres du groupe qui correspondent à un autre critère. Par exemple, vous pouvez trouver tous les contacts qui sont abonnés à la newsletter ou des bénévoles, et exclure les membres du conseil d'administration, peut-être pour créer une nouvelle liste de diffusion pour envoyer un message ciblant les cercles les plus externes de vos contacts.
 
@@ -205,7 +205,7 @@ Recherche de contacts situés à moins de x miles / kilomètres d'un lieu géogr
 4. Entrez les autres paramètres (groupe, étiquette) que vous souhaitez affecter à votre recherche.
 5. Cliquez sur **Rechercher**.
 
-![recherche proximite](../img/Fr_recherche_proximite.PNG)
+![recherche proximite](/img/Fr_recherche_proximite.PNG)
 
 **CONSEIL :** Vous pouvez également incorporer la recherche de proximité dans un profil que vous avez configuré pour être utilisé comme formulaire de recherche.
 
@@ -233,13 +233,13 @@ Trouvez des contacts dans une zone de code postal ou de code postal spécifiée.
 2. Saisissez la plage de début et de fin du code postal ou des codes postaux.
 3. Cliquez sur **Rechercher**.
 
-![recherche CP](../img/Fr_recherche_plage_Code_Postal.PNG)
+![recherche CP](/img/Fr_recherche_plage_Code_Postal.PNG)
 
 ### **Date d'ajout à CiviCRM**
 
 Rechercher des contacts qui ont été ajoutés au cours d'une période donnée. L'inclusion d'un groupe affiche uniquement ceux qui sont ajoutés dans le délai spécifié et qui sont également dans ce groupe. En excluant un groupe, les membres du groupe sont exclus de ces résultats.
 
-![recherche ajout CIVI](../img/Fr_recherche_date_ajout.PNG)
+![recherche ajout CIVI](/img/Fr_recherche_date_ajout.PNG)
 
 ### **Liste des valeurs multiples de groupe personnalisé**
 
@@ -251,7 +251,7 @@ Rechercher les contributions qui ont été faites dans une année et pas dans un
 
 Aucun des champs n'est requis. Vous pouvez choisir de rechercher une plage de montant spécifié ainsi qu'une période de temps et si vous souhaitez exclure des montants minimum ou maximum.
 
-![recherche in_out](../img/Fr_recherche_contribution_year_in_out.PNG)
+![recherche in_out](/img/Fr_recherche_contribution_year_in_out.PNG)
 
 Il est possible d'écrire vos propres recherches personnalisées, mais vous devrez être à l'aise avec MySQL et PHP. Voir le wiki de développeur à [http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)  pour plus d'informations sur la façon de faire. Si vous créez une recherche personnalisée qui pourrait être utile à d'autres utilisateurs, pensez à la partager avec la communauté.
 
@@ -261,7 +261,7 @@ Utiliser "recherche + action"
 
 Après avoir récupéré vos résultats de recherche, vous pouvez effectuer un certain nombre d'actions. Une zone Actions s'affiche au-dessus des résultats. Vous pouvez sélectionner tous les enregistrements ou cocher uniquements ceux qui vous interessent pour effectuer une action avec les enregistrements seulement sélectionnés. Les différentes actions sont traitées plus en détail dans le chapitre sur les tâches quotidiennes.
 
-![Screen shot of Action Dropdown](../img/user-interface-searching-actions-dropdown.png)
+![Screen shot of Action Dropdown](/img/user-interface-searching-actions-dropdown.png)
 
 Les actions les plus couramment utilisées sont Add Contacts to Group, Export Contacts, Map Contacts, et créer et imprimer des Mailing Labels. (Pour utiliser Map Contacts, vous devez configurer Mapping and Geocoding. Pour en savoir plus, consultez le chapitre *Installation* de la section *Configuration* de ce manuel).
 Par exemple, pour envoyer un courriel à un certain nombre de contacts, cochez les contacts qui vous intéressent, puis sélectionnez **Envoyer un e-mail aux contacts** dans la liste déroulante des actions.
@@ -270,7 +270,7 @@ La fenêtre du résumé des contacts
 --------------------------
 Cette boîte de dialogue contextuelle contient des informations détaillées pour tout contact figurant dans vos résultats de recherche en cliquant sur l'icône de contact dans la colonne de gauche, comme indiqué ci-dessous. Vous pouvez ajuster les champs affichés dans cette "fenêtre contextuelle" en modifiant les champs inclus dans le profil "Résumé de la superposition" (**Administer **> ** Personnaliser les données et les écrans**> **Profils**).
 
-![Screen shot of Contact Summary pop-up](../img/user-interface-searching-summary-overlay.png)
+![Screen shot of Contact Summary pop-up](/img/user-interface-searching-summary-overlay.png)
 
 Le caractère générique (%)
 ----------------

@@ -8,7 +8,7 @@ Vous pouvez également suivre les relations entre les organisations, ou entre le
 Créer des relations entre contacts
 ---------------------------------------
 
-![image](../img/4.5%20Add%20Relationship.png)
+![image](/img/4.5%20Add%20Relationship.png)
 
 1. Accédez à l'un des enregistrements que vous souhaitez relier.
 2. Cliquez sur **Ajouter une relation** dans le bouton **Actions** du résumé de contact ou dans l'onglet Relations

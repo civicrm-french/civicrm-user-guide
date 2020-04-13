@@ -40,7 +40,7 @@ Pour créer la lettre :
 6.  Entrez / modifiez votre texte, mettez-le en forme, insérez une image... ;
 7.  Vous pouvez personnaliser votre lettre en ajoutant des champs de fusion : positionnez le curseur à l'endroit où vous souhaitez insérer le champ, puis sélectionnez-le depuis le menu déroulant *Champs de fusion* en haut à droite.
 
-    ![PostalGreetingToken](../img/CiviCRM_update-CiviCore-PostalGreetingToken-en.png "PostalGreetingToken")
+    ![PostalGreetingToken](/img/CiviCRM_update-CiviCore-PostalGreetingToken-en.png "PostalGreetingToken")
 
 8.  Avant d'aller plus loin, vous pouvez décider de sauvegarder le document en tant que nouveau modèle. Dans ce cas, activez la case à cocher en bas de l'éditeur et donnez un titre à votre modèle ;
 9.  Choisissez le format de document que vous souhaitez générer (pdf, docx, html...) ;

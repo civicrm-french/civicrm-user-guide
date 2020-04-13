@@ -5,14 +5,14 @@ La possibilité pour les utilisateurs finaux de pouvoir s'enregistrer eux-même 
 
 Le processus standard pour l'inscription en ligne à un événement est le suivant :
 
-![event_registrationflow_1](../img/CiviCRM-CiviEvent-event_registrationflow_1-fr.png "event_registrationflow_1")
+![event_registrationflow_1](/img/CiviCRM-CiviEvent-event_registrationflow_1-fr.png "event_registrationflow_1")
 
 Paramétrer l'inscription en ligne
 ---------------------------------
 
 Pour afficher les paramètres, cochez **Autoriser l'inscription en ligne**.
 
-![image](../img/event_online_rego_part_1.png)
+![image](/img/event_online_rego_part_1.png)
 
 Confirmez ou modifiez le texte qui s'affichera en tant que lien vers la page d'inscription (par défaut, "S'incrire maintenant"), et indiquez les dates de début et de fin pour les inscriptions en ligne. Ces dernières définissent la période durant laquelle le formulaire d'inscription sera en ligne sur le site. Elle peut se terminer avant la date de l'événement lui-même, afin de vous laisser le temps de réaliser des tâches de préparation selon le nombre de participants.
 
@@ -26,7 +26,7 @@ La **Règle de dédoublement** est expliquée plus loin dans la sous-section [Co
 
 L'étape suivante consiste à définir le texte et les champs servant à collecter les informations, et qui seront affichés dans la page d'inscription en ligne.
 
-![image](../img/event_online_rego_part_2.png)
+![image](/img/event_online_rego_part_2.png)
 
 Le **Texte d'introduction** sera affiché en haut de la page, et le **Pied de page (texte)** en bas. Tous ou certains champs seront affichés entre les deux : profil, tarif, détail de la carte de crédit...
 
@@ -42,7 +42,7 @@ ATTENTION : si vous modifiez un profil existant pendant le paramétrage de votre
 Une autre façon de faire est d'en créer un totalement nouveau, sans quitter la configuration de votre page d'inscription en ligne. L'interface *glisser-déposer* vous permet également de créer des champs personnalisés à inclure dans votre profil. Ces champs peuvent être créés pour tous ou certains types d'événements, et tous ou certains rôles de participants (cf. le chapitre [Données personnalisées](./custom-data-for-events.md) de cette section). 
 
 
-![image](../img/Drag_and_drop_profile_for_event.PNG)
+![image](/img/Drag_and_drop_profile_for_event.PNG)
 
 
 Confirmation d'inscription
@@ -54,7 +54,7 @@ Pour les événements gratuits, l'étape de confirmation est sautée. Pour les �
 
 Pour la plupart des événements, il sera utile d'activer l'option du courriel de confirmation. Pour les événéments payants, ce courriel sert également de reçu. Assurez-vous que l'adresse **Courriel de l'expéditeur pour la confirmation** soit un compte courriel valide de votre serveur de messagerie. Ajoutez une ou plusieurs adresses dans le champ **CC confirmation à** si vous souhaitez informer en temps réel des membres de votre organisation sur les participants.
 
-![OnlineRegEmail](../img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
+![OnlineRegEmail](/img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
 
 Veuillez noter que le contenu du champ **Texte** sera généré en texte brut ET en HTML. Nous ne recommandons donc pas d'y inclure des tags HTML de formatage.
 
@@ -76,7 +76,7 @@ Si vous souhaitez utiliser la fonctionnalité de liste d'attente, vous devez :
 -   Activer (pré-requis) les status des participants *Sur liste d'attente* et *En attente (depuis la liste d'attente)*. Vous pouvez le faire en allant à **Administrer** > **CiviEvent** > **Statut de participant** ;
 -   Dans la page de configuration de l'événement, onglet *Infos et paramètres*; les options **Proposer une liste d'attente** et le texte du message seront disponibles. Activez-les et modifiez le texte le cas échéant ; 
 
-![EventInfo2](../img/CiviCRM_update-CiviEvent-EventInfo2-en.png "EventInfo2")
+![EventInfo2](/img/CiviCRM_update-CiviEvent-EventInfo2-en.png "EventInfo2")
 
 Notez que le processus ne peut fonctionner que si la tâche programmée *Mettre à jour les statuts des participants* est en cours d'exécution (voir **Administrer** > **Paramètres système** > **Travaux programmés**).
 
@@ -114,7 +114,7 @@ Nous avons vu plus qu'une personne inscrite à un événement était automatique
 
 Vous pouvez en apprendre davantage sur les règles de dédoublement dans le chapitre [Dédoublonner et fusionner](../common-workflows/deduping-and-merging.md). Ici, nous ne couvrirons le sujet que dans le contexte de CiviEvent.
 
-![image](../img/event-duplicate-matching.png)
+![image](/img/event-duplicate-matching.png)
 
 Par défaut, CiviEvent utilise la règle *automatique* pour établir les correspondances. Lorsque vous configurez la page d'inscription en ligne d'un événement, vous pouvez choisir une règle différente de celle par défaut pour cet événement particulier.
 

@@ -63,7 +63,7 @@ Préparer un fichier CSV pour l'importation
 
 Exemple de format .csv d'une feuille de calcul
 
-![student_sample](../img/CiviCRM-student_sample-en.png)
+![student_sample](/img/CiviCRM-student_sample-en.png)
 
 Lorsque vous réfléchissez à la création de votre feuille de calcul, pensez aux données que vous allez collecter et planifiez l'en-tête de vos colonnes. Gardez en tête que vous pourriez avoir besoin de créer plus d'un fichier CSV et de faire plusieurs importations avant d'en avoir terminé.
 
@@ -78,7 +78,7 @@ La processus d'importation se déroule en quatre étapes.
 
 Dans cette rubrique, vous devez spécifier les informations de base de votre importation, et notamment la source de vos données. Ces dernières peuvent provenir soit d'un fichier CSV, soit d'une requête sur une base de donnée SQL de votre serveur. Une case à cocher vous permet d'indiquer si la première ligne de votre fichier doit être considérée ou non comme des en-têtes de colonne.
 
-![image](../img/Screen%20Shot%202015-04-29%20at%203.54.21%20PM.png)
+![image](/img/Screen%20Shot%202015-04-29%20at%203.54.21%20PM.png)
 
 Notez que par défaut, le processus d'importation utilise la règle **non-supervisé** pour décider si un contact est ou non un doublon (vous pouvez vous référer au chapitre *Dedoublonnage et fusion* de cette section pour plus d'information sur les règles de détection de doublons dans CiviCRM). Vous pouvez spécifier ce que le système doit faire si un doublon est détecté lors d'une importation :
 
@@ -87,14 +87,14 @@ Notez que par défaut, le processus d'importation utilise la règle **non-superv
 -   **Remplir**: remplit avec les champs vides ou manquants de l'enregistrement original avec les données importées. Ceux contenant déjà une ou plusieurs valeurs ne sont pas modifiés.
 -   **Pas de vérification des doublons**: Tous les enregistrements valides importés sont systématiquement insérés dans la base de données CiviCRM sans qu'aucune vérification de doublons ne soit faite..
 
-![image](../img/Import%20Options.png)
+![image](/img/Import%20Options.png)
 
 **Charger la carte de correspondance** indique comment les champs de données de votre fichier d'importation doivent correspondre aux champs de CiviCRM. La première fois que vous importez des données depuis une source particulière, il peut être utile de cocher la case "Sauvegarder cette carte de correspondance" en bas de la page avant de continuer. Cette dernière peut alors être facilement réutilisée la prochaine fois qu'une importation similaire est faite.
 
 ### Étape 2: Correspondance des champs
 Si vous avez des en-têtes de colonne dans votre fichier, ces derniers apparaitront dans la première colonne du côté gauche de votre tableau de correspondance. Les deux colonnes suivantes affichent deux lignes d'enregistrements de valeurs qui seront importées, et la quatrième colonne indique les champs CiviCRM correspondants. Si vous avez chargé une carte de correspondance dans l'étape précédente, vous y retrouverez vos choix. Vous pouvez les modifier s'ils ne sont pas pertinents pour cet import.
 
-![ImportMatchFields](../img/CiviCRM_update-CiviCore-ImportMatchFields-en.png "ImportMatchFields")
+![ImportMatchFields](/img/CiviCRM_update-CiviCore-ImportMatchFields-en.png "ImportMatchFields")
 
 les champs CiviCRM correspondants incluent des données CiviCRM standards telles que Prénom et Nom, mais aussi des champs de données personnalisées que vous auriez au préalable configurés pour l'utilisation de vos contacts sur votre site. Faites correspondre les champs en cliquant sur les listes déroulantes et en sélectionnant la donnée appropriée. Par exemple, si l'en-tête de votre donnée importée est Nom de famille, vous pourriez choisir Nom comme champ CiviCRM correspondant.
 
@@ -102,7 +102,7 @@ Sélectionner "- ne pas importer -" pour toute colonne du fichier de données qu
 
 Si vous avez sauvegardé une carte de correspondance pour un jeu particulier de colonnes de feuille de calcul et que ce dernier a changé (par exemple, vous avez ajouté des colonnes correspondant à des champs de données supplémentaires), vous pouvez modifier la carte et la sauvegarder à nouveau. Dans ce cas précis, pour faciliter l'importation de données supplémentaire, nous vous conseillons de mettre les nouvelles colonnes à droite des colonnes d'origine. Cela vous permet de retrouver les correspondances sauvegardées et d'en sélectionner ensuite les nouvelles.
 
-![Step2d](../img/CiviCRM-AddingImporting-Step2d-en.png "Step2d")
+![Step2d](/img/CiviCRM-AddingImporting-Step2d-en.png "Step2d")
 
 Dans le cas contraire, si vous n'avez pas positionné vos nouvelles données dans des colonnes APRÈS les colonnes d'origine, vous ne pourrez pas utiliser les cartes de correspondance sauvegardées et vous devrez les refaire manuellement.
 
@@ -114,17 +114,17 @@ Cet écran vous affiche une prévisualisation des résultats de vos données imp
 
 Si des lignes de votre feuille de calcul contiennent des données qui ne remplissent pas les prérequis de CiviCRM pour un ou plusieurs champs, vous verrez alors un message d'erreur avec le nombre de ligne non-valides (cf la capture d'écran ci-dessous). Vous pouvez cliquer sur le lien Télécharger les erreurs et voir le détail des problèmes dans le fichier ainsi téléchargé. Vous avez donc la possibilité de réparer les problèmes avant l'importation définitive.
 
-![ImportPreviewErrs](../img/CiviCRM_update-CiviCore-ImportPreviewErrs-en.png "ImportPreviewErrs")
+![ImportPreviewErrs](/img/CiviCRM_update-CiviCore-ImportPreviewErrs-en.png "ImportPreviewErrs")
 
 En bas du formulaire, vous pouvez choisir d'ajouter les contacts à un groupe existant, importer un nouveau groupe, créer une nouvelle étiquette, ou associer une étiquette existante. Nous vous recommandons fortement d'importer les enregistrements dans un groupe particulier afin de pouvoir facilement les retrouver et, si le besoin se présente, les effacer et les ré-importer.
 
-![Step3b_1](../img/CiviCRM-AddingImporting-Step3b_1-en.png "Step3b_1")
+![Step3b_1](/img/CiviCRM-AddingImporting-Step3b_1-en.png "Step3b_1")
 
 ### Step 4: Résumé
 
 L'écran final affiche les importations réalisées avec succès, ainsi que les erreurs et les contacts en doublon. Si vous avez paramétré l'importation pour ajouter tous les nouveaux contacts à un groupe spécifique, vous pouvez cliquer dessus pour visualiser vos nouveaux enregistrements.
 
-![Step4a_2](../img/CiviCRM-AddingImporting-Step4a_2-en.png "Step4a_2")
+![Step4a_2](/img/CiviCRM-AddingImporting-Step4a_2-en.png "Step4a_2")
 
 À ce stade, vous devriez vérifier que votre importation a fonctionné comme vous l'attendiez. Recherchez les contacts que vous venez d'importer et examinez leurs données standards et personnalisées.
 
@@ -141,9 +141,9 @@ Tout d'abord, nous importons les données enfant en pensant à bien inclure un i
 
 Dans l'exemple ci-dessous, nous avons un fichier CSV qui contient les informations de la mère et du père. Nous utilisons ce même fichier deux fois pour l'importation. Regardez bien les champs ci-dessous pour comprendre ce qui se passe.
 
-![Parent1a](../img/CiviCRM-AddingImporting-Parent1a-en.png "Parent1a")
+![Parent1a](/img/CiviCRM-AddingImporting-Parent1a-en.png "Parent1a")
 
-![Parent1b](../img/CiviCRM-AddingImporting-Parent1b-en.png "Parent1b")
+![Parent1b](/img/CiviCRM-AddingImporting-Parent1b-en.png "Parent1b")
 
 Nous lions le père à l'enfant en utilisant l'identifiant externe et ainsi importons le nom du père en utilisant le type de relation "Enfant de ".
 

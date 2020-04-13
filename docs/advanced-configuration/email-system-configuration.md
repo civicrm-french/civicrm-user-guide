@@ -21,7 +21,7 @@ Configuration du service de messagerie sortant
 ----------------------------------------------
 Les paramètres de messagerie sortante sont configurés dans : **Administer> Paramètres système> Courriel sortant (SMTP / Sendmail)**.  Les choix sont : 
 
-![image](../img/Fr_courrier_sortant.PNG)
+![image](/img/Fr_courrier_sortant.PNG)
 
 -   **mail()**: C'est l'option par défaut et si elle fonctionne pour vous, vous devez l'utiliser.
 -   **SMTP**: Si vous avez un serveur de messagerie externe dédié, veuillez en spécifier les détails ici. Les messages de rebond générés avec SMTP sont légèrement plus complets que ceux de mail(), mais il n'y a aucun avantage pratique à utiliser SMTP si vous pouvez utiliser mail().
@@ -85,7 +85,7 @@ CiviCRM peut recevoir automatiquement la [notification d'email renvoyé](http://
 
 Administration> Paramètres système> Travaux planifiés :
 
-![image](../img/Fr_taches_periodiques.PNG)
+![image](/img/Fr_taches_periodiques.PNG)
 
 L'adresse e-mail de rebond est une adresse e-mail "invisible" que l'on voit uniquement dans les champs cachés qui précèdent les en-têtes et le message ajouté par l'utilisateur. Choisissez un nom significatif pour cela. Dans cet exemple, nous avons choisi *return*. l'adresse email que nous devons configurer sur un serveur de messagerie *example.org*  est *return@example.org*.
 
@@ -123,9 +123,9 @@ Il existe plusieurs façons de configurer votre boîte aux lettres entrante:
 
 Une fois que vous avez créé votre compte de messagerie pour recevoir des retours ou des courriers électroniques pour le dépôt automatique, vous devez configurer CiviMail pour qu'il sache comment le lire en tant qu'adresse de messagerie par défaut : **Administer> CiviMail> Comptes courriel** : 
 
-![Screen shot of the email box selection screen](../img/administer-civimail-mailaccount.png)
+![Screen shot of the email box selection screen](/img/administer-civimail-mailaccount.png)
 
-![image](../img/Fr_creer_compte_courriel.PNG)
+![image](/img/Fr_creer_compte_courriel.PNG)
 
 -   Spécifiez le serveur ** :  IP serveur, Nom d'utilisateur et le mot de passe** que vous avez utilisés lors de la création du compte.
 -   La **Partie locale** est facultative et n'est pertinente que si vous avez pu configurer un compte en utilisant un sous-adressage. Il doit s'agir du compte que vous avez créé avec '+' ou '-' ajouté, par exemple, "return+" ou "return-".

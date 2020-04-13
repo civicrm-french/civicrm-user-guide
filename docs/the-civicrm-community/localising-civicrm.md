@@ -7,7 +7,7 @@ Pour régionaliser CiviCRM (ou tout autre logiciel), il ne suffit pas de simplem
 
 CiviCRM offre plusieurs fonctionnalités pour s'adapter aux besoins qui peuvent varier selon la langue et selon la région. L'équipe de développement de CiviCRM développe régulièrement de nouveaux outils pour simplifier ce processus. L'écran de Régionalisation (ou Localisation) affiché dans la saisie d'écran ci-dessous permet de configurer les bons paramètres de préférences régionales de CiviCRM. Pour y accéder, se rendre à Administrer > Localisation > Langue, devises et localisation.
 
-![2](../img/CiviCRM_update-CiviCore-2-en.png "2")
+![2](/img/CiviCRM_update-CiviCore-2-en.png "2")
 
 Si vous souhaitez utiliser CiviCRM dans une autre langue que l'anglais, il est important de choisir cette langue lors de l'installation. En installant directement en français, par exemple, CiviCRM s'assurera que toutes les configurations par défaut et modèles de messages soient en français. Si vous changez la langue à un autre moment, il faudra manuellement traduire ces configurations. Il y a également quelques subtilités à prendre en compte si vous souhaitez utiliser CiviCRM dans plus d'une langue (le mode multi-lingue).
 

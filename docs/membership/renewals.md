@@ -72,7 +72,7 @@ Lorsqu'une adhésion est souscrite à l'aide de la page d'inscription de l'adhé
 
 Un lien "renouvelable" qui pointe vers cette page sera alors affiché dans le tableau de bord de contact pour toute adhésion qui a été introduite manuellement.
 
-![image](../img/z_sprint14_renewalpage.png)
+![image](/img/z_sprint14_renewalpage.png)
 
 Renouvellement manuel d'une adhésion pour un seul contact
 ---------------------------------------------------
@@ -82,7 +82,7 @@ Renouvellement manuel d'une adhésion pour un seul contact
 3. Cliquez sur **PLUS** à côté du dossier d'adhésion
 4. Sélectionnez **Renouveler** pour entrer: espèces, chèque ou EFT ou **Renew-Credit Card** pour traiter le renouvellement par votre processeur de paiement en ligne.
 
-![image](../img/z_sprint14_renewmembership_1.png)
+![image](/img/z_sprint14_renewmembership_1.png)
 
 Mise à jour par lot des adhésions via le profil
 ----------------------------------
@@ -100,5 +100,5 @@ Pour utiliser la fonction **Mise à jour par lot des adhésions via un profil**:
 
       Vous trouverez ci-dessous un exemple d'une page "Entrée des données du lot" qui utilise un profil d'adhésion configuré pour afficher les champs **Type d'adhésion** et **Date de départ de l'adhésion** 
 
-![image](../img/Memberships-Everydaytasks-batchupdateviaprofile-batchupdateformembers.jpg)
+![image](/img/Memberships-Everydaytasks-batchupdateviaprofile-batchupdateformembers.jpg)
 

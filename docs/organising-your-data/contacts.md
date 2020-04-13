@@ -31,7 +31,7 @@ Nous allons voir ci-dessous les parties les plus importantes de votre écran con
 
 Juste au dessus des onglets quelques boutons sont disposés. Le premier d'entre eux est le bouton **Actions** qui contient des raccourcis pratiques sur les actions les plus communes à faire avec un contact : ajouter une note, enregistrer une nouvelle contribution, inscription à un événement, etc.
 
-![image](../img/ActionRibbon.PNG)
+![image](/img/ActionRibbon.PNG)
 
 ### Onglet résumé
 
@@ -39,7 +39,7 @@ L'onglet résumé vous montre les informations principales concernant votre cont
 
 Certains champs de cet onglet sont propres au type de contact Individu / Particulier (nom, prénom...) et d'autres propres au type de contact organisation (nom de l'organisation...).
 
-![image](../img/ContactSummary.PNG)
+![image](/img/ContactSummary.PNG)
 
 #### Champs propres aux individus / particuliers
 
@@ -88,7 +88,7 @@ Différents formats peuvent aussi être paramétrés au niveau de chaque contact
 
 Les relations sont des connexions entre des enregistrements de contacts dans votre base de donnée. Chaque connexion peut être nommée pour en décrire sa nature, et chaque contact peuvent avoir plusieurs relations avec d'autres contacts dans la base de donnée. Dans l'exemple ci-dessous, vous pouvez voir une liste de relations courantes et de relations inactives.
 
-![Contact-RelatoinshipTab_1](../img/CiviCRM_update-CiviCore-Contact-RelatoinshipTab_1-en.png)
+![Contact-RelatoinshipTab_1](/img/CiviCRM_update-CiviCore-Contact-RelatoinshipTab_1-en.png)
 
 Vous pouvez en savoir plus sur les relations dans le chapitre *Relations* de la section *Organiser vos données*.
 
@@ -96,7 +96,7 @@ Vous pouvez en savoir plus sur les relations dans le chapitre *Relations* de la 
 
 L'onglet Activités affiche une liste de toutes vos interactions avec un contact, y compris toutes les activités "métier" de CiviCRM telles que les participations à des événéments, les contributions, les appels téléphoniques... ainsi que toutes les activités personnalisées que vous pourriez ajouter. Il est également possible d'y enregistrer vos interactions avec le contact : Cliquez sur la liste déroulante en haut de l'écran et sélectionnez un type d'activité (Passer un appel téléphonique, Envoyer un courriel...) vous fera afficher un écran sur lequel entrer les détails.
 
-![Contact_ActivityTab](../img/CiviCRM_update-CiviCore-Contact_ActivityTab-en.jpg)
+![Contact_ActivityTab](/img/CiviCRM_update-CiviCore-Contact_ActivityTab-en.jpg)
 
 Pour en savoir plus sur les activités, merci de vous référer au chapitre *Activités* de cette section.
 
@@ -110,7 +110,7 @@ L'onglet Contributions affiche toutes les contributions financières faite par u
 
 Cet onglet vous permet également d'enregistrer manuellement des contributions qui n'aurait pas été faites en ligne, en utilisant le bouton **Nouvelle contribution**.
 
-![Contact_COntribTab](../img/CiviCRM_update-CiviCore-Contact_COntribTab-en.jpg )
+![Contact_COntribTab](/img/CiviCRM_update-CiviCore-Contact_COntribTab-en.jpg )
 
 Pour en savoir plus sur ce sujet, veuillez vous référer au chapitre *Contributions* de ce manuel.
 
@@ -118,7 +118,7 @@ Pour en savoir plus sur ce sujet, veuillez vous référer au chapitre *Contribut
 
 Cet onglet affiche les adhésions du contact. Vous pouvez également y enregistrer manuellement celles qui n'auraient pas été faites en lignes, en utilisant le bouton **Ajouter une adhésion**. Vous pouvez également renouveler ou supprimer des adhésions depuis le lien "plus" à droite de chaque adhésion associée au contact.
 
-![Contact_MembershipTabs](../img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.jpg)
+![Contact_MembershipTabs](/img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.jpg)
 
 Pour en savoir plus sur ce sujet, veuillez vous référer au chapitre *Adhésions* de ce manuel.
 
@@ -130,7 +130,7 @@ Depuis cette page, vous pouvez inscrire un contact à un événement, et même e
 
 Vous pouvez également modifier les informations d'un événement associé au contact en cliquant sur le lien "Modifier". Par exemple, vous pouvez changer le statut d'un contact sur un événement de "Enregistré" à "En attente".
 
-![Contact_Eventstab](../img/CiviCRM_update-CiviCore-Contact_Eventstab-en.jpg)
+![Contact_Eventstab](/img/CiviCRM_update-CiviCore-Contact_Eventstab-en.jpg)
 
 Pour en savoir plus sur ce sujet, veuillez vous référer au chapitre *Événements* de ce manuel.
 
@@ -143,7 +143,7 @@ Dans cet onglet, vous pouvez ajoutez ou retirer le contact d'un groupe, et en vo
 
 La colonne Statut indique l'utilisateur qui a ajouté le contact au groupe. Il est possible d'autoriser les utilisateurs à s'ajouter eux-même à un groupe. Lorsque vous paramétrez la visibilité d'un groupe à "Listes publiques", les utilisateurs peuvent s'y ajouter à travers un formulaire **Profil** (plus d'information à ce sujet dans le chapitre *Les profils* de cette section).
 
-![Contact_GroupsTab](../img/CiviCRM_update-CiviCore-Contact_GroupsTab-en.jpg)
+![Contact_GroupsTab](/img/CiviCRM_update-CiviCore-Contact_GroupsTab-en.jpg)
 
 Pour en savoir plus sur ce sujet, veuillez vous référer au chapitre *Groupes et étiquettes* de ce manuel.
 
@@ -153,13 +153,13 @@ Vous pouvez dans cet onglet enregistrer n'importe quelle information concernant 
 
 Vous pouvez spécifier "Auteur uniquement" pour une note. Dans ce cas, seul l'auteur pourra la lire ou la modifier, ou quelqu'un ayant l'autorisation "Voir toutes les notes" dans CiviCRM.
 
-![Contact_NotesTab](../img/CiviCRM_update-CiviCore-Contact_NotesTab-en.jpg)
+![Contact_NotesTab](/img/CiviCRM_update-CiviCore-Contact_NotesTab-en.jpg)
 
 ### Onglet étiquettes
 
 Les étiquettes sont une possibilité de classer vos contacts dans votre base de donnée (les autres moyens sont les groupes et les données personnalisées). Vous pouvez créer autant d'étiquettes que vous le souhaitez pour gérer votre organisation. Vous pouvez faire des recherches sur les étiquettes et créer des groupes dynamiques basés sur ces dernières.
 
-![Contact_TagTab](../img/CiviCRM_update-CiviCore-Contact_TagTab-en.jpg "Contact_TagTab")
+![Contact_TagTab](/img/CiviCRM_update-CiviCore-Contact_TagTab-en.jpg "Contact_TagTab")
 
 Pour en savoir plus sur ce sujet, veuillez vous référer au chapitre *Groupes et étiquettes* de ce manuel.
 
@@ -167,7 +167,7 @@ Pour en savoir plus sur ce sujet, veuillez vous référer au chapitre *Groupes e
 
 Cet onglet vous donne des informations synthétiques sur les modifications faites sur l'enregistrement d'un contact : la date et l'auteur des changements, mais pas ce qui a été changé.
 
-![Contact_ChangeLog](../img/CiviCRM_update-CiviCore-Contact_ChangeLog-en.jpg "Contact_ChangeLog")
+![Contact_ChangeLog](/img/CiviCRM_update-CiviCore-Contact_ChangeLog-en.jpg "Contact_ChangeLog")
 
 
 Ajouter des contacts
@@ -175,7 +175,7 @@ Ajouter des contacts
 
 La façon la plus simple d'ajouter un seul contact dans CiviCRM est d'utiliser le menu principal et de se rendre à **Contacts > Nouvel individu**.
 
-![Contact_createIndividual](../img/CiviCRM_update-CiviCore-Contact_createIndividual-en.jpg "Contact_createIndividual")
+![Contact_createIndividual](/img/CiviCRM_update-CiviCore-Contact_createIndividual-en.jpg "Contact_createIndividual")
 
 Veuillez noter que le menu Contacts vous propose de créer tous les types et sous-type de contacts.
 
@@ -214,7 +214,7 @@ Il est simple de modifier des informations dans l'onglet Résumé : lorsque le c
 
 Si vous avez besoin de modifier un nombre important de données pour un contact spécifique, vous pouvez mettre tout le formulaire en mode Édition en cliquant directement sur le bouton **Modifier** au dessus des onglets.
 
-![image](../img/contact%20Screen%20-inline%20edit.png) 
+![image](/img/contact%20Screen%20-inline%20edit.png) 
 
 En de rares occasions, il est possible que deux utilisateurs éditent une fiche contact en même temps (en particulier s'ils ouvrent la même fiche contact puis la sauvegarde en même temps). Dans ce cas, le second utilisateur sera notifié des modifications du premier et aura la possibilité de les fusionner. 
 

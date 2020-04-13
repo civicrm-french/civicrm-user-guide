@@ -31,7 +31,7 @@ Vous avez basiquement deux options : enlever le statut "suspendu" à l'adresse c
 Pour enlever le statut "Suspendu" :
 1.  Aller dans **Recherche avancée**
 2.  Dans **Critères de base**, cochez **Courriels suspendus**
-![image](../img/Mailing%20Basic%20Search.png)
+![image](/img/Mailing%20Basic%20Search.png)
 3.  Une fois obtenu la liste des contacts concernés, selectionnez les et choisissez l'action **Enlevez la suspension** de la liste déroulante et cliquez sur **Lancer**
 
 Pour corriger / mettre à jour les adresses, vous devez d'abord créer un groupe (destiné à contenir les adresses en erreur), puis :

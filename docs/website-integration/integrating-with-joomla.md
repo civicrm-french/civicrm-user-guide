@@ -9,11 +9,11 @@ Création de lien de menu pour CiviCRM
 -----------------------------------------------
 Le contenu de CiviCRM peut être affiché sur votre site Web de deux manières différentes. La façon principale est de créer un élément de menu spécifique qui affichera les données de CiviCRM. Dans le menu administrateur de Joomla!, naviguez jusqu'à **Menu principal-> Ajouter un lien de menu**.
 
-![image](../img/Joomla-lien-menu.PNG)
+![image](/img/Joomla-lien-menu.PNG)
 
 Dans cet écran sélectionner "type de lien de menu". Un nouvel écran affichera  les options ci-dessous  en cliquant sur Civicrm. 
 
-![image](../img/Joomla-type-lien-menu.PNG)
+![image](/img/Joomla-type-lien-menu.PNG)
 
 Sélectionner la page CiviCRM correspondante à ce que vous souhaitez afficher.
 
@@ -38,7 +38,7 @@ Niveau d'accès sur les liens de menu de CiviCRM
 
 Certains des types d'éléments de menu ci-dessus nécessitent que l'utilisateur final soit connecté à votre site afin que CiviCRM puisse savoir quelles informations d'enregistrement de contact soient présentées. Par exemple, si John Smith vient sur votre site Web et navigue sans être connecté et que vous ayez spécifié le **Formulaire de vue du profil**  avec un niveau d'accès public, CiviCRM ignorera complètement que John Smith est sur votre site et ne pourra donc lui retourner ses informations personnelles. Dans ce cas, CiviCRM présenterait l'erreur suivante:
 
-![image](../img/z_sprint14_wordpress_error.png)
+![image](/img/z_sprint14_wordpress_error.png)
 
 Pour chaque utilisateur Joomla!, CIVICRM crée un contact correspondant. Ainsi, lorsque quelqu'un se connecte à Joomla! avec ses  informations d'identification, CiviCRM peut rechercher les informations de contact à afficher. Les types d'élément de menu CiviCRM suivants nécessitent la connexion d'un utilisateur final à Joomla!. Lors de la création de ces types spécifiques, il doit y avoir un niveau d'accès minimum défini sur "Enregistré".
 

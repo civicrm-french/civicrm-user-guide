@@ -1,7 +1,7 @@
 Enregistrement
 ==============
 
-![Screenshot of default logging](../img/configuration-default-logging.png)
+![Screenshot of default logging](/img/configuration-default-logging.png)
 
 CiviCRM conserve une trace des différents changements que vous réalisez sur les contacts, adhésions,activités, etc... Chaque contact possède un onglet de journal des modifications qui est mis à jour automatiquement chaque fois qu'un contact est ajouté ou modifié. Le journal des modifications indique **qui** a modifié l'enregistrement et **quand** la modification a été effectuée. Cette journalisation résumée est activée par défaut et de nombreux utilisateurs trouvent qu'elle est suffisament détaillée.
 Une des principales informations manquantes cependant, est de voir  **"ce"**  qui a été changé. Mais "l'enregistrement détaillé" ajoute des informations sur ce qui a changé et fournit de nombreuses autres fonctionnalités
@@ -18,7 +18,7 @@ Une fois activée, la journalisation détaillée permet de suivre toutes les mod
 
 Lorsque vous activez l'enregistrement détaillé, (voir écran suivant). vous pouvez consulter les détails de la modification en cliquant sur le côté gauche.
 
-![Change log image](../img/change-log.png)
+![Change log image](/img/change-log.png)
 
 Cette journalisation s'étend à presque toutes les données existant dans CiviCRM, y compris contacts, adhésions, événements, etc., ainsi que toutes les données des composants de votre installation, telles que les types d'activité, les types de cas, les types de contribution, etc.
 
@@ -41,7 +41,7 @@ Annuler les modifications
 
 L'un des grands avantages de l'activation de la journalisation détaillée est la possibilité de rétablir les modifications que vous apportez à vos données. Pour un grand nombre de champs de contact, nous simplifions cette tâche en affichant un bouton de retour en bas de l'écran qui montre les détails de la modification.
 
-![Screenshot of change log revert](../img/change-log-revert.png)
+![Screenshot of change log revert](/img/change-log-revert.png)
 
 Cet écran n'est pas disponible pour toutes les modifications de contact, cependant, les données sont toujours affichées. Si vous devez rétablir des données qui ne peuvent pas être renvoyées via l'interface utilisateur, vous devez contacter votre administrateur système ou obtenir l'aide d'une personne qui connaît la fonctionnalité de journalisation détaillée de CiviCRM.
 

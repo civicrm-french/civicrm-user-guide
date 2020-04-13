@@ -24,7 +24,7 @@ Les options suivantes sont disponibles :
 -   **Contributions faites en l'honneur de %1** : vous pouvez également donner le nom de la personne à qui vous dédiez votre promesse de don ;
 
 
-![image](../img/new_pledge2.png)
+![image](/img/new_pledge2.png)
 
 Rappels de paiement
 -------------------
@@ -46,11 +46,11 @@ Rechercher des promesses de don
 
 Pour rechercher des promesses de don dans la base de donnée, allez à **Contributions** > **Promesses de don** >  **Rechercher des promesses de don**. Vous pouvez effectuer une recherche en fonction du nom ou du courriel du donateur, ou tout autre critère disponible pour chaque promesse (date de début, etc.) La page de résultat vous listera les promesses de don répondant à vos critères de recherche, et des options de visualisation, modification et suppression seront disponible pour chaque enregistrement. Si le statut d'une promesse de don est *en cours*, une option d'annulation de la promesse de don sera également disponible.
 
-![image](../img/pledge_menu.png)
+![image](/img/pledge_menu.png)
 
 Tableau de bord
 ---------------
 
 Vous pouvez visualiser une synthèse des promesses de don récentes (dans le mois courant et sur la dernière année) sur le tableau de bord. Il suffit d'aller à **Contributions** > **Promesse de don** > **Tableau de bord**.
 
-![image](../img/pledge%20table.png)
+![image](/img/pledge%20table.png)

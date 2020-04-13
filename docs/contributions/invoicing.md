@@ -9,7 +9,7 @@ Dans cet écran, vous pouvez également définir certains paramètres pour les f
 - l'intervalle de jours, semaines ou années jusqu'à la date d'échéance
 - des notes personnalisées ou des conditions standard que vous souhaitez voir apparaître sur votre facture
 
-![image](../img/civicontribute_comp_settings.png)
+![image](/img/civicontribute_comp_settings.png)
 
 Créer une facture
 --------------------
@@ -19,11 +19,11 @@ Une fois la facturation activée, vous pouvez facilement imprimer des factures o
 1. Accédez à l'onglet "Contribution" du Contact
 2. Affichez l'enregistrement pour lequel vous souhaitez créer une facture
 
-![image](../img/contribution_summary.png)
+![image](/img/contribution_summary.png)
 
 1. Dès que vous consultez le dossier du contact, vous avez la possibilité d'imprimer la facture ou l'envoyer par courriel. L'impression d'une facture génèrera un pdf et envoyer une facture par email affichera un écran "Options supplémentaire".
 
-![image](../img/contributiion_view_Screen.png)
+![image](/img/contributiion_view_Screen.png)
 
 1. Une fois que vous avez choisi l'option Facture par Email vous avez des options avant d'envoyer:
 
@@ -31,11 +31,11 @@ Une fois la facturation activée, vous pouvez facilement imprimer des factures o
 
 - Taper un message supplémentaire si besoin
 
-![image](../img/email_invoice.png)
+![image](/img/email_invoice.png)
 
 Voici un exemple de facture imprimée. Les factures peuvent être personnalisées.
 
-![image](../img/invoice.png)
+![image](/img/invoice.png)
 
 Personnalisation de facture
 -----------------------

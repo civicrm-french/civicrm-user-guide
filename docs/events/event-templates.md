@@ -15,8 +15,8 @@ Les étapes de création de modèles d'événements sont similaires à celles d�
 -   Continuez de saisir les paramètres qui seront communs pour tous les événements à venir créés à l'aide de ce modèle.
 -   Les caractéristiques communes peuvent inclure la localisation, les tarifs, les paramètres d'inscription en ligne,etc...
 
-![image](../img/Fr_creation_modele_evenement.PNG)
+![image](/img/Fr_creation_modele_evenement.PNG)
 
 Une fois que vous avez créé un modèle d'événement, vous pouvez sélectionner ce modèle (comme illustré dans la capture d'écran suivante) lorsque vous créez un nouvel événement aux caractéristiques similaires. Votre événement sera pré-rempli avec les propriétés de la configuration enregistrée.
 
-![image](../img/event_template_new.png)
+![image](/img/event_template_new.png)

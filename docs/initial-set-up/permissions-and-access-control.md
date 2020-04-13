@@ -42,7 +42,7 @@ Tous les CMS possèdent le même ensemble d'autorisations de CiviCRM, mais chacu
 Pour acceder aux autorisation Drupal allez au menu Drupal et choisissez l'option **People** et cliquez sur l'onglet **Permissions** dans le coin supérieur droit de la fenêtre popup. Vous trouverez ici une liste de toutes les opérations ou actions possibles qu'un utilisateur peut effectuer dans CiviCRM et Drupal, avec des colonnes pour chaque type de rôle existant. La vérification d'une option dans l'une des colonnes confère à ce rôle la capacité d'exécuter l'action.
 Vous pouvez créer de nouveaux rôles et modifier ceux déjà existants. Pour modifier les rôles, dans l'onglet **Permis**, cliquez sur le bouton **Rôles** en haut à droite de la page.
 
-![image](../img/CiviCRM_Drupal_Roles.png) 
+![image](/img/CiviCRM_Drupal_Roles.png) 
 
 Les rôles peuvent être attribués aux utilisateurs de la manière suivante:
 
@@ -67,7 +67,7 @@ Joomla! a une méthode différente d'attribution des autorisations. Les droits d
 
 Notez que Joomla! a deux autorisations supplémentaires non utilisées par Drupal ou Wordpress: **Configurer Joomla! ACL** (l'utilisateur peut configurer les listes ACL de Joomla! affectées à toutes les autorisations CiviCRM) et **See CiviCRM is installed** (l'utilisateur peut voir CiviCRM dans la liste des Composants).
 
-![image](../img/Fr_joomla_ACL.PNG) 
+![image](/img/Fr_joomla_ACL.PNG) 
 
 Pour affecter un de ces groupes à un utilisateur ou pour modifier son groupe existant, assurez-vous d'être connecté en tant qu'administrateur, puis effectuez l'une des opérations suivantes:
 
@@ -79,9 +79,9 @@ Pour affecter un de ces groupes à un utilisateur ou pour modifier son groupe ex
 
 Dans CiviCRM, allez dans **Administer**> **User and Permissions**> **Permis (Access Control)**. Sélectionnez le lien **Wordpress Access Control**. Vous pouvez ajuster ici les paramètres CiviCRM pour chacun des rôles utilisateur prédéfinis de Wordpress.
 
-![image](../img/z_sprint14_wordpressacl_menu.png)
+![image](/img/z_sprint14_wordpressacl_menu.png)
 
-![image](../img/z_sprint14_wordpressACL.png)
+![image](/img/z_sprint14_wordpressACL.png)
 
 Les rôles peuvent être attribués aux utilisateurs de la manière suivante:
 
@@ -189,7 +189,7 @@ Cliquez sur "Add Acl Role"  pour afficher un écran qui permettra de créer un n
 -   **Poids**: Donner au rôle un nombre pour déterminer sa place dans la liste (par exemple, "1" place le rôle en haut, tandis que "20" peut l'envoyer en bas de la liste. Les nombres inférieurs apparaissent avant ceux plus élevés)
 -   **Actif?**: le rôle est-il actif ou non? Si vous désactivez cette option, la fonctionnalité cesser de fonctionner pour certains utilisateurs
 
-![image](../img/Fr_roles_ACL.PNG)
+![image](/img/Fr_roles_ACL.PNG)
 
 ### 2 - Assigner des utilisateurs aux rôles ACL de CiviCRM
 
@@ -203,7 +203,7 @@ Le groupe de contacts ACL peut maintenant être affecté à un rôle. Cliquez su
 -   **Assigné à**: Choisissez un groupe de contacts à affecter au rôle
 -   **Actif?**: Cette affectation est-elle active ou non?
 
-![image](../img/Fr_Assign_role_user.PNG)
+![image](/img/Fr_Assign_role_user.PNG)
 
 ### 3 - Gérer les ACL
 
@@ -226,6 +226,6 @@ Pour commencer à créer ces ACL, retournez à l'écran "Contrôle d'accès"  (*
 -   **Groupe** : Sélectionnez le groupe spécifique de contacts, de profil, de données personnalisées ou d'événements pour cette ACL
 - **Actif?**: est-ce que cette ACL est active?
 
-![image](../img/Fr_creer_acl.PNG)
+![image](/img/Fr_creer_acl.PNG)
 
 

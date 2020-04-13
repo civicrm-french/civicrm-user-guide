@@ -28,11 +28,11 @@ Avant d'être en mesure d'afficher tout contenu de CiviCRM sur le site Web publi
 
 Pour ajouter un "shortcode" créez un nouveau "Post" ou une nouvelle page et vous verrez maintenant à côté d' "Ajouter le média", le bouton CiviCRM.
 
-![image](../img/z_sprint14_shortcode%20insert.png) 
+![image](/img/z_sprint14_shortcode%20insert.png) 
 
 Après avoir cliqué sur CiviCRM, les options suivantes vous seront affichées:
 
-![image](../img/z_sprint14_Wordpress_shortcode.png) 
+![image](/img/z_sprint14_Wordpress_shortcode.png) 
 
 Selon le "shortcode" que vous sélectionnez, vous aurez différentes sous-options pour répondre aux besoins d'information de l'utilisateur final.
 

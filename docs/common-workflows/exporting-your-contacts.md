@@ -20,13 +20,13 @@ Voici comment importer vos informations de contact :
 
 3.  Depuis le menu déroulant **- actions -**, sélectionnez **Exportez les contacts** tel qu'indiqué dans la figure ci-dessous. Cela ouvrira l'assistant d'exportation.
 
-    ![ExportFromSearch](../img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
+    ![ExportFromSearch](/img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
 
 4.  **Tout exporter ou uniquement les champs sélectionnés**.  
 
     -  Choisissez entre exporter les champs principaux ou selectionnez votre propre jeu de champs.
 
-    ![ContactExportOptions](../img/contact-export-options.PNG "ContactExportOptions")
+    ![ContactExportOptions](/img/contact-export-options.PNG "ContactExportOptions")
 
     Il existe 80 champs dans une exportation de champs principaux (les champs standards de contact tels que le courriel, le téléphone et l'adresse principaux). Il est souvent préférable de décider quel champs exporter, et cela vous permet également de prendre en compte les champs tels que courriel, téléphone et adresse secondaires de vos contacts, ainsi que leurs champs personnalisés. Vous pouvez également choisir d'utiiser une carte de correspondance d'exportation que vous auriez précédemment sauvegardé.
 
@@ -40,7 +40,7 @@ Voici comment importer vos informations de contact :
 
 6.  **Selectionner les champs à exporter**
 
-    ![ContactExportFieldSelection](../img/contact-export-field-selection.PNG "ContactExportFieldSelection")  
+    ![ContactExportFieldSelection](/img/contact-export-field-selection.PNG "ContactExportFieldSelection")  
 
     -  Si vous avez choisi d'utiliser une carte de correspondance sauvegardée, les champs de cette correspondance seront affichés. Vous pouvez alors l'utiliser telle quelle ou la modifier. Dans le dernier cas, il est bien sûr possible de mettre à jour la sauvegarde ou d'en créer une nouvelle.
     

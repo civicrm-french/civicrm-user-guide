@@ -106,7 +106,7 @@ Gestion des groupes
 ---------------
 Pour afficher et gérer tous les groupes, accédez à: **Menu de navigation> Contacts> Gérer les groupes**
 
-![image](../img/ManageGroups.png)
+![image](/img/ManageGroups.png)
 
 Vous pouvez  utiliser le formulaire "Rechercher des groupes" en haut de l'écran "Gérer les groupes" pour rechercher des groupes par nom, type, visibilité et si le groupe est activé ou désactivé. Vous pouvez également faire défiler ou parcourir la liste de groupes dans l'écran "Gérer les groupes". Cette liste comprend les groupes réguliers et les groupes intelligents.
 
@@ -122,7 +122,7 @@ Trouver des contacts dans un groupe
 
 La page Contacts de chaque groupe comprend un formulaire pour trouver des contacts dans le groupe. Vous pouvez rechercher des contacts au sein d'un groupe par nom, adresse e-mail, type de contact, statut de groupe (ajouté, supprimé ou en attente) ainsi que les étiquettes
 
-![Groups_searchwithin](../img/CiviCRM_update-CiviCore-Groups_searchwithin-en.jpg "Groups_searchwithin")
+![Groups_searchwithin](/img/CiviCRM_update-CiviCore-Groups_searchwithin-en.jpg "Groups_searchwithin")
 
 Groupes et ACL
 --------------
@@ -137,7 +137,7 @@ Travailler avec les étiquettes
 Pour afficher les étiquettes, accédez à: **Contacts> Gérer les étiquettes** dans le menu de navigation.
 Une étiquette peut être éditée ou supprimée en utilisant les liens respectifs dans sa ligne. Vous pouvez créer de nouvelles étiquettes en cliquant sur le bouton "Ajouter une étiquette" ou en allant dans "Contacts> Nouvelle étiquette" dans le menu de navigation.
 
-![admin_tags](../img/CiviCRM_update-CiviCore-resized_600x158_admin_tags-en.png "admin_tags")
+![admin_tags](/img/CiviCRM_update-CiviCore-resized_600x158_admin_tags-en.png "admin_tags")
 
 Chaque étiquette doit avoir un nom clair et unique et une description explicative pour aider les utilisateurs à comprendre le but de l'étiquette. Les étiquettes peuvent être structurées hiérarchiquement et désignées comme sous-étiquettes d'une étiquette existante en sélectionnant une étiquette Parent dans la liste déroulante.
 
@@ -163,7 +163,7 @@ Les ensembles d'étiquettes sont une forme libre de classement des contacts et s
 
 Pour créer un ensemble d'étiquettes dans le menu de navigation allez à : **Contacts> Gérer les étiquettes**  cliquez sur le bouton "Ajouter un jeu d'étiquettes". Attribuez un nom, une description et indiquez si le jeu d'étiquettes s'appliquera aux contacts, aux activités ou aux dossiers.
 
-![image](../img/Tag%20Set%20-%20Create.png)
+![image](/img/Tag%20Set%20-%20Create.png)
 
 Si vous cliquez sur la case "Réservé?", l'étiquette est définie de façon permanente. Cela empêche qu'un groupe d'étiquettes soit supprimé par une personne sans autorisation de l'administrateur. (Pour en savoir plus sur les autorisations, voir le chapitre *Permissions et contrôle d'accès* de la section *Configuration initiale*).
 
@@ -171,7 +171,7 @@ Vous pouvez maintenant utiliser l'ensemble d'étiquettes pour classifier libreme
 
 Lorsque vous créez un nouvel ensemble d'étiquettes, un nouveau champ apparaît sur les pages d'édition des activités ou des dossiers ainsi que dans l'onglet "Etiquette" pour les contacts. Par exemple, si vous créez un ensemble d'étiquettes intitulé «Contacts hors secteur»  associé aux Contacts, vous verrez l'étiquette définie la prochaine fois que vous accéderez à l'onglet "Etiquette" de l'enregistrement d'un contact.
 
-![image](../img/Tag%20Set%20-%20Creating%20tags%20on%20the%20fly.png)
+![image](/img/Tag%20Set%20-%20Creating%20tags%20on%20the%20fly.png)
 
 Il s'agit là d'un champ de saisie semi-automatique: lorsque vous commencez à taper, CiviCRM recherche les étiquettes correspondantes dans ce jeu d'étiquette et affiche les correspondances sous le champ. Vous pouvez sélectionner une variable existante ou en créer une nouvelle en tapant la variable entière et en appuyant sur la touche Entrée. L'étiquette s'affiche alors dans le champ dans une zone. En cliquant sur le X, vous annulerez l'enregistrement que vous éditez (contact, dossier ou activité)
 

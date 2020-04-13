@@ -18,7 +18,7 @@ Créer un nouveau lot à partir de transactions existantes
 Allez à **Contributions> Lots comptables** et sélectionnez **Nouveau lot.** 
 Cela ouvre l'écran de création de lot dans lequel vous définissez les paramètres de lot : 
 
-![Nouveau lot comptable](../img/civicontribute-accounting-integration-new-batch.png)
+![Nouveau lot comptable](/img/civicontribute-accounting-integration-new-batch.png)
 
 -  Entrez le nom du lot (obligatoire). CiviCRM créera un nom de lot par défaut ("lot N" + date d'ouverture), que vous pouvez modifier.
 -  Vous pouvez éventuellement entrer une description du lot. 
@@ -33,7 +33,7 @@ Vous pouvez toujours modifier ces paramètres tant que le lot reste ouvert.
 
 Après avoir créé un nouveau lot de comptabilité ou en avoir ouvert un, vous aurez l'écran d'assignation de transaction :  
 
-![Ecran de Transaction](../img/civicontribute-accounting-batches-transactions.png)
+![Ecran de Transaction](/img/civicontribute-accounting-batches-transactions.png)
 
 En haut de l'écran, les paramètres définis du lot sont affichés:  
 

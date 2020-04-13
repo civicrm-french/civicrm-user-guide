@@ -30,7 +30,7 @@ Si vous avez beaucoup de champs personnalisés, vous pouvez les classer par suje
 
 Pour créer un ensemble de champs personnalisés - et les champs personnalisés eux-mêmes – rendez-vous à :**Administrer CiviCRM > Données personnalisées > Nouvel ensemble de données personnalisées**. Ce formulaire vous permet d'assigner un titre à votre ensemble de champs, de spécifier le type de dossier auquel vous le destinez, de choisir comment il va s'afficher, et entrer le texte d'information approprié. Le formulaire apparaît sur l'image qui suit. 
 
-![image](../img/Custom%20Field%20Set.png)
+![image](/img/Custom%20Field%20Set.png)
 
 Nous allons maintenant vous décrire chacun des champs.
 
@@ -86,11 +86,11 @@ Il y a deux façons d'afficher les champs dans un onglet : **Onglet** et **Ongle
 
 **Onglet avec table** offre un aperçu concis des données dans l'ensemble. De nouveaux enregistrements peuvent être ajoutés et les enregistrements existants peuvent être édités dans des fenêtres pop-up. Sous **plus**, il ya la possibilité de "copier un enregistrement". Pour les enregistrements consécutifs qui ont la même valeur dans de nombreux champs, cela vous permet de modifier un ou deux champs et d'enregistrer la copie en tant que nouvel enregistrement.
 
-![image](../img/z-Sprint2014%20copy%20multli%20record.png)
+![image](/img/z-Sprint2014%20copy%20multli%20record.png)
 
 **Onglet** affiche les champs de façon semblable au style par défaut.
 
-![image](../img/z-Sprint14%20multi%20record%20old%20style%20table.png) 
+![image](/img/z-Sprint14%20multi%20record%20old%20style%20table.png) 
 
 ### Cet ensemble de champs personnalisés est-il toujours actif ?
 
@@ -115,7 +115,7 @@ Après avoir terminé les options de configuration du champ, cliquez sur «*Enre
 
 À l'exception des données et de la sélection du type de champ d'entrée, toutes les options de configuration peuvent être modifiées après la création initiale du champ. Vous pouvez également trouver utile de prévisualiser vos champs personnalisés, ainsi que l'ensemble des champs personnalisés, comme vous les avez définis. Cela est particulièrement utile pour vérifier la mise en page des champs de bouton radio et de case à cocher avec un grand nombre de choix.
 
-![customdatafield.png](../img/CiviCRM-DataBasic-customdatafield-en.png "newcustomfield")
+![customdatafield.png](/img/CiviCRM-DataBasic-customdatafield-en.png "newcustomfield")
 
 ### Étiquette du champ
 
@@ -124,7 +124,7 @@ Le texte à côté du champ lorsqu'il est affiché à l'utilisateur. Le texte sa
 ### Type
 Les champs personnalisés peuvent être de différents types, dont beaucoup ont probablement été rencontrés lors du remplissage de formulaires sur des sites Web. Lorsque vous créez un champ personnalisé, CiviCRM présente une liste déroulante de types de données à partir de laquelle vous pouvez sélectionner celle qui représente le mieux les données que vous souhaitez stocker. Le menu de gauche (illustré dans la figure suivante) indique le paramètre de format des données, alors que le menu de droite indique la manière dont vous souhaitez interagir avec l'utilisateur.
 
-![datainputfieldtype.png](../img/CiviCRM-DataBasic-datainputfieldtype-en.png "datainputtype")
+![datainputfieldtype.png](/img/CiviCRM-DataBasic-datainputfieldtype-en.png "datainputtype")
 
 Les types de champs sont :
 
@@ -165,11 +165,11 @@ CONSEIL : Nous vous suggérons d'expérimenter la création de différents types
 
 Cette case à cocher n'apparaît que lorsque vous créez un champ dans un jeu de champs multi-enregistrements que vous avez choisi d'afficher sous l'onglet **avec table**. Elle est cochée par défaut. Si vous désélectionnez cette option, le champ ne sera pas affiché dans la table. Vous pouvez le faire pour les champs moins importants si vous disposez d'un nombre de données trop large pour votre écran.
 
-![image](../img/z_sprint14_MultirowCustom3.png)
+![image](/img/z_sprint14_MultirowCustom3.png)
 
 Les champs cachés dans la vue de la table seront toujours disponibles lors de l'ajout d'un nouvel enregistrement ou de l'affichage, de l'édition ou de la copie d'une ligne particulière.
 
-![image](../img/z_sprint14_MultirowCustom2.png) 
+![image](/img/z_sprint14_MultirowCustom2.png) 
 
 ### Taille du champ dans la base de donnée
 
@@ -218,7 +218,7 @@ Si vous choisissez d'utiliser le même ensemble d'options pour plusieurs champs,
 
 Lorsque vous créez un nouvel ensemble, vous avez la possibilité de saisir initialement jusqu'à dix options à choix multiples dans une table. Si vous avez besoin de plus de dix options, vous pouvez créer un nombre illimité de choix supplémentaires après avoir enregistré ce nouveau champ en utilisant le lien «Modifier les options de choix multiples». Aller à: **Administer **> ** Personnaliser**> **Données personnalisées**> **Afficher et modifier les champs personnalisés**> **Modifier les options de choix multiples**. Vous pouvez accéder à cet écran ultérieurement pour modifier l'étiquette, l'ordre et l'état actif de toute option à choix multiples, ou ajouter d'autres choix.
 
-![CustomMultipleOptions](../img/CiviCRM-Configuring-CustomMultipleOptions-en.PNG "CustomMultipleOptions")
+![CustomMultipleOptions](/img/CiviCRM-Configuring-CustomMultipleOptions-en.PNG "CustomMultipleOptions")
 
 Si vous le souhaitez, vous pouvez également marquer l'un des choix comme option par défaut.
 Les options inactives sont masquées lorsque le champ est affiché.
@@ -227,7 +227,7 @@ Les options inactives sont masquées lorsque le champ est affiché.
 
 Vous pouvez afficher une liste de tous les champs personnalisés dans un ensemble de champs personnalisés définis à tout moment en naviguant sur **Administer> Personnaliser les données et les écrans> Données personnalisées** et en cliquant sur "Afficher et modifier les champs personnalisés" pour l'ensemble de champs choisi.
 
-![image](../img/Move_custom_fields.PNG) 
+![image](/img/Move_custom_fields.PNG) 
 
 Outre les options prévues dans les paramètres d'édition du champ , éditez les options à choix multiple (s'il y a lieu), prévisualisez, désactivez ou supprimez, vous avez également la possibilité de déplacer un champ personnalisé vers un autre ensemble de données. Vous pouvez déplacer des champs personnalisés entre les ensembles utilisés pour tous les contacts ou pour les sous-types de contacts. Vous ne pouvez déplacer des champs que dans des ensembles de données du même type.
 

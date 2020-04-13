@@ -13,7 +13,7 @@ Le premier écran que vous voyez lors de la création demande des informations d
 Vous pouvez cliquer sur l'un des points d'interrogation bleu pour afficher une aide sur chacun des champs à remplir. En cliquant sur le crayon à droite de certains champs vous ouvrez un écran où vous pouvez modifier les options disponibles.
 Notez qu'en fonction de vos autorisations vous ne serez pas en mesure de voir ce crayon et vous ne pourrez modifier ces options
 
-![image](../img/Fr_nouvel_evenement.PNG)
+![image](/img/Fr_nouvel_evenement.PNG)
 
 **From template** : vous permet de créer un événement à partir d'un modèle (voir le chapitre *Event templates* dans ce document)  plutôt que d'en créer un à partir de zéro.
 
@@ -57,7 +57,7 @@ L'étape suivante consiste à compléter la localisation et les coordonnées de 
 
 Une fois que vous avez saisi le lieu de l'événement, vous pouvez le réutiliser pour des événements ultérieurs en cliquant sur **Utiliser un emplacement existant** en le sélectionnant dans la liste déroulante. Notez que si vous choisissez un emplacement existant et que vous le modifiez, il mettra à jour ce lieu pour tous les événements qui l'utilisent.
 
-![image](../img/event%20location%20with%20warning.PNG)
+![image](/img/event%20location%20with%20warning.PNG)
 
 Vous pouvez aussi lister des numéros de téléphone et adresses e-mail sur la page d'information de l'événement si vous voulez donner aux inscrits un moyen de communiquer directement avec les organisateurs de l'événement. Si l'événement a lieu hors site de l'emplacement principal, vous pouvez également fournir des informations de contact sur le lieu de la réunion.
 
@@ -76,11 +76,11 @@ Pour plus d'informations consultez *Payment Processors* dans la section *Contrib
 
 Si vous voulez permettre aux inscrits de payer plus tard, par l'envoi d'un chèque par exemple, de payer sur place en espèces ou par carte de crédit, ou autre moyen de paiement, dans ces cas activez **Payez plus tard** et définissez une étiquette et les instructions de paiement. Si cette option est décochée, les inscrits devront payer par carte de crédit.
 
-![EventFeesPayLater](../img/CiviCRM_update-CiviEvent-EventFeesPayLater-en.png "EventFeesPayLater")
+![EventFeesPayLater](/img/CiviCRM_update-CiviEvent-EventFeesPayLater-en.png "EventFeesPayLater")
 
 **Regular Fees**  permettent de géréer plusieurs de niveaux de tarif à partir desquels l'inscrit doit choisir un niveau unique (par exemple, un enregistrement individuel pour 50 € ou un enregistrement familial pour 100 €). A chaque montant de tarif est attribué une étiquette, vous pouvez ainsi définir des tarifs par défaut. Cette façon donne satisfaction pour de nombreux événements et est facile à mettre en place. Voici un exemple simple:
 
-![EventRegFees](../img/CiviCRM_update-CiviEvent-EventRegFees-en.png "EventRegFees")
+![EventRegFees](/img/CiviCRM_update-CiviEvent-EventRegFees-en.png "EventRegFees")
 
 Si votre événement nécessite une structure de tarif plus complexe, avec plus d'options ou d'add-ons supplémentaires, vous pouvez utiliser **ensembles de prix** ou **rabais**. Pour plus d'informations à ce sujet, reportez-vous au chapitre * Frais d'événement complexes * de cette section.
 
@@ -101,11 +101,11 @@ Des rappels programmés peuvent être utilisés pour envoyer automatiquement des
 
 Pour configurer un rappel planifié sur un événement spécifique, cliquez sur l'onglet "Rappels planifiés", qui vous montrera  les rappels déjà planifiés pour cet événement (si c'est le cas) et cliquez sur **Add Reminder**.
     
-![image](../img/scheduled-reminder-events.png)
+![image](/img/scheduled-reminder-events.png)
 
 Remplissez les champs de ce formulaire pour envoyer, par exemple, un courriel à tous les intervenants inscrits 3 jours avant la date de début de l'événement. Notez que vous pouvez limiter les destinataires par statut et aussi par rôle (conférencier, participant, bénévole, etc.). Vous pouvez utiliser un modèle ou composer votre propre message dans la zone de format HTML.
 
-![image](../img/scheduled-reminder-events-compose.png)
+![image](/img/scheduled-reminder-events-compose.png)
 
 En plus de configurer des modèles de rappels généraux des événements, vous pouvez également les configurer pour des types d'événements spécifiques et les ajouter à des modèles d'événements spécifiques.
 L'idée est essentiellement la même que ci-dessus, mais vous pouvez accéder à cette fonctionnalité à partir de **Administer> Communications> Rappels planifiés**.
@@ -116,7 +116,7 @@ Informer un ami
 CiviEvent facilite l'utilisation de la puissance des réseaux sociaux de vos membres et participants en leur permettant de partager rapidement et facilement des informations sur votre organisation et vos événement avec leurs amis et collègues.
 La dernière étape de la création d'événement est une page où vous pouvez activer les fonctionnalités "Tell-A-Friend" (Informer un ami). Vous pouvez définir le texte et les liens à inclure sur cette page et dans l'email envoyé à partir de l'outil (voir la capture d'écran suivante).
 
-![EventTellFriend](../img/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend")
+![EventTellFriend](/img/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend")
 
 Chaque fois qu'une personne enverra du courrier à ses amis, un enregistrement d'activité «Informer à un ami» sera ajouté à l'onglet Activités d'un participant. Cela vous permet de suivre vos membres ou participants les plus actifs et de les engager davantage. Les personnes sollicitées par courrier électronique à l'aide de cette fonctionnalité sont automatiquement ajoutées à CiviCRM en tant que contacts.
 
@@ -129,6 +129,6 @@ Vous pouvez envoyer des courriels automatiques de confirmation et de réception 
 Vous pouvez modifier ou ajouter du texte à ces e-mails ou ajouter des images telles qu'un logo aux versions HTML. Pour configurer une adresse de courriel à partir de laquelle envoyer la confirmation et les reçus, consultez la section Configuration dans la section Courrier électronique.
 Accédez à **Administrer> Communications> Modèles de message** (illustré dans la capture d'écran suivante) et cliquez sur l'onglet **Système de flux de travail** pour afficher la liste des messages que vous pouvez modifier. Cliquez ensuite sur **Modifier** à côté de "Événements - Confirmation d'inscription et réception" pour modifier le contenu et la mise en page.
 
-![WorkflowMsgTpls](../img/CiviCRM_update-CiviEvent-WorkflowMsgTpls-en.png "WorkflowMsgTpls")
+![WorkflowMsgTpls](/img/CiviCRM_update-CiviEvent-WorkflowMsgTpls-en.png "WorkflowMsgTpls")
 
 Les modèles de ces messages incluent à la fois le texte affiché et la logique de programme nécessaire. Soyez prudent lors de l'édition afin de ne pas modifier la logique du programme. Assurez-vous de tester votre de travail et d'examiner les courriels envoyés après avoir apporté des modifications. Si vous constatez que vos modifications ont causé des problèmes, des erreurs ou des informations manquantes, vous pouvez toujours revenir au système par défaut pour ce modèle.

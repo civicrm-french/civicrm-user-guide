@@ -3,7 +3,7 @@ L'état du système
 
 À partir de la version 4.7, l'écran de l'état du système affiche un aperçu de l'état actuel de diverses informations techniques liées à votre installation CiviCRM. Pour accéder à cet écran, naviguer à : **Administration > Console système > État du système**.
 
-![Screen Shot of CiviCRM System Status](../img/initial-set-up-CiviCRM-System-Status.png)
+![Screen Shot of CiviCRM System Status](/img/initial-set-up-CiviCRM-System-Status.png)
 
 Les items en *rouge* doivent être vérifiés aussitôt que possible. Un item en rouge signifie généralement qu'une technicalité pourrait empêcher CiviCRM de fonctionner correctement.
 

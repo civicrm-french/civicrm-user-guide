@@ -6,7 +6,7 @@ Vous pouvez ajouter tous les champs de base et personnalisés à un profil, y co
 
 En créant un Profil, vous êtes en mesure de sélectionner et de choisir uniquement les champs pertinents dans un but spécifique. Le diagramme ci-dessous fournit une explication visuelle de la façon dont les champs existants deviennent une partie d'un profil.
 
-![Profiles](../img/CiviCRM-Icons-db1-en.png "Profiles")
+![Profiles](/img/CiviCRM-Icons-db1-en.png "Profiles")
 
 Cette section explique comment utiliser les profils pour collecter et partager des données ainsi que plusieurs façons d'utiliser des profils permettant de gagner du temps pour toute personne qui gère des données dans votre organisation.
 
@@ -25,7 +25,7 @@ Exemples:
 
 Dans l'exemple ci-dessous, un profil est utilisé pour recueillir des informations d'adresse sur une page de don.
 
-![image](../img/baykeeper-profile.png)
+![image](/img/baykeeper-profile.png)
 
 ### Affichage d'informations sur les pages publiques
 
@@ -102,7 +102,7 @@ Ceci est important uniquement pour les profils qui seront utilisés pour affiche
 
 Tous les *nouveaux* contacts qui correspondent à ce profil seront ajoutés a un groupe. Vous pouvez, par exemple, ajouter une personne qui remplit votre formulaire d'inscription à un groupe de bénévoles. Notez que, par défaut, les contacts ne reçoivent aucune confirmation quand ils ont été ajoutés à ce groupe ou quand ils doivent valider leur adresse électronique. Pour que les contacts qui remplissent le formulaire de profil reçoivent un courriel, allez à **Administer > CiviMail > CiviMail Component Settings** et cochez la case **"Activer le double opt-in pour les profils qui utilisent le paramètre "Ajouter au groupe" "**. Ils doivent répondre (opt-in) avant d'être ajoutés au groupe.
 
-![Screen shot of dobule opt-in setting](../img/organizing-data-double-opt-in.png)
+![Screen shot of dobule opt-in setting](/img/organizing-data-double-opt-in.png)
 
 Notez que si vous souhaitez proposer plus d'un groupe, il est préférable d'utiliser le champ Profil de groupe.
 
@@ -196,21 +196,21 @@ Dans Drupal et Joomla! il y a deux façons d'utiliser des formulaires autonomes 
 
 Dans WordPress, il ya une troisième voie supplémentaire. Lors de la création ou de la modification d'un message, cliquez sur le bouton CiviCRM pour insérer un code court CiviCRM dans le message.
 
-![image](../img/2013-09-04_15-29-47_1.png)
+![image](/img/2013-09-04_15-29-47_1.png)
 
 Dans le formulaire contextuel, sélectionnez Profil comme élément frontal souhaité.
 
-![image](../img/2013-09-04_15-15-35.png)
+![image](/img/2013-09-04_15-15-35.png)
 
 Utilisez le second widget de sélection pour spécifier le profil que vous souhaitez utiliser. Enfin, sélectionnez le but du formulaire (créer, modifier ou afficher) et cliquez sur Insérer un formulaire.
 
-![image](../img/2013-09-04_15-16-45.png)
+![image](/img/2013-09-04_15-16-45.png)
 
 ### Champs de valeurs multiples dans les profils
 
 Les ensembles de champs personnalisés à plusieurs valeurs vous permettent d'avoir plusieurs jeux de données personnalisées par contact. Ils sont utiles pour modéliser des données qui se répètent, par exemple, des données d'expérience de travail. Vous pouvez afficher ces champs personnalisés à plusieurs valeurs via des profils. Dans la capture d'écran ci-dessous, nous avons créé un profil qui est utilisé pour collecter les données de nom et d'expérience de travail. Notez que les données personnalisées multi-valeurs apparaissent légèrement différemment dans le profil pour faciliter l'ajout, l'édition et la suppression de plusieurs instances de ces enregistrements.
 
-![image](../img/multi-value-profile.png)
+![image](/img/multi-value-profile.png)
 
 ### Création d'annuaires avec des profils
 
@@ -224,7 +224,7 @@ Pour mettre un annuaire (ou une liste de contats) sur votre site Web :
  
 - **Inclure les liens d'information sur le compte utilisateur (Drupal ou Joomla) dans les résultats de recherche ?** : Cochez cette case si vous souhaitez inclure un lien dans les listes de contacts pour afficher les informations de compte d'utilisateur d'un contact (par exemple, leur page "Mon compte"). Ce lien ne sera inclus que pour les contacts disposant d'un compte d'utilisateur sur votre site Web.
  
-    ![profile_adv_settings](../img/CiviCRM-CapturingExposing-buildprofile-profile_adv_settings-en.jpg "profile_adv_settings")
+    ![profile_adv_settings](/img/CiviCRM-CapturingExposing-buildprofile-profile_adv_settings-en.jpg "profile_adv_settings")
 
 Vous pouvez alors inclure les champs qui composeront la liste. Pour les profils utilisés comme listes, vous disposez d'un contrôle total sur les champs suivants qui:
 
@@ -234,7 +234,7 @@ Vous pouvez alors inclure les champs qui composeront la liste. Pour les profils 
 
 Les options importantes que vous devez configurer dans les champs à des fins d'annuaire sont indiquées ci-dessous:
 
-![directory_fields](../img/CiviCRM-CapturingExposing-buildprofile-directory_fields-en.jpg "directory_fields")
+![directory_fields](/img/CiviCRM-CapturingExposing-buildprofile-directory_fields-en.jpg "directory_fields")
 
 - Les champs visibles de votre liste doivent être définis sur **Pages publiques** ou **Pages publiques et listes**. La différence entre ces deux options est que celles configurées en tant que Pages Publiques et Listes auront le champ en vue détaillée directement lié. ce qui  permettra à l'utilisateur de générer une recherche de suivi pour d'autres enregistrements qui ont également la même valeur de champ. Par exemple, vous pouvez définir "Ville" comme "Pages publiques et listes". Lorsque l'utilisateur effectue une recherche et affiche les détails d'un enregistrement, il peut cliquer sur la valeur de la ville et effectuer une recherche immédiate. La recherche s'exécute comme s'ils avaient sélectionné cette ville dans l'écran de recherche de profil.
 - L'option **Interrogeable** détermine si les visiteurs de votre liste peuvent rechercher par ce champ. Dans les utilisations courantes d'une liste, presque tous les champs sont définis pour être recherchés. Plus vous définissez de champs de recherche, plus vous fournissez de puissance à vos visiteurs pour trouver les informations dont ils ont besoin.
@@ -242,15 +242,15 @@ Les options importantes que vous devez configurer dans les champs à des fins d'
 
 L'image ci-dessous montre le mode de recherche pour notre liste d'adhésion.
 
-![Member Directory SearchForm](../img/CiviCRM-CapturingExposing-buildprofile-MemberDirSearchForm-en.png "MemberDirSearchForm")
+![Member Directory SearchForm](/img/CiviCRM-CapturingExposing-buildprofile-MemberDirSearchForm-en.png "MemberDirSearchForm")
 
 Dès que vous avez lancé la recherche, vous obtenez ce jeu de résultats. Les champs de profil dont les Colonnes de Résultats ont été cochés sont affichés dans la liste..
 
-![MemberDirResults](../img/CiviCRM-CapturingExposing-buildprofile-MemberDirResults-en.png "MemberDirResults")
+![MemberDirResults](/img/CiviCRM-CapturingExposing-buildprofile-MemberDirResults-en.png "MemberDirResults")
 
 En cliquant sur le lien de vue, vous obtiendrez plus de détails sur le composant, affichant tous les champs du profil.
 
-![Profile MemberView](../img/CiviCRM-CapturingExposing-buildprofile-MemberView-en.png "MemberView")
+![Profile MemberView](/img/CiviCRM-CapturingExposing-buildprofile-MemberView-en.png "MemberView")
 
 Comme nous l'avons vu, la construction d'une liste pour votre site Web peut fournir de précieux outils à vos utilisateurs.
 
@@ -282,13 +282,13 @@ Accédez à l'écran **Recherche avancée** et définissez les filtres appropri�
 
 Vous accédez à l'écran "Mettre à jour plusieurs contacts".
 
-  ![Update Multiple Records](../img/update-multiple-records.PNG)
+  ![Update Multiple Records](/img/update-multiple-records.PNG)
 
 Dans la liste déroulante, choisissez le Profil que vous souhaitez utiliser et cliquez sur **Continuer**.
 
 L'écran suivant contiens une grille. Chaque ligne indique le nom du contact et les champs de votre profil. Vous devez mettre à jour les valeurs de champ pour chaque contact si besoin.
 
-![Update Multiple Records Profile View](../img/update-multiple-records-profile.PNG)
+![Update Multiple Records Profile View](/img/update-multiple-records-profile.PNG)
 
 Pour définir si un champ à la même valeur pour toutes les lignes, entrez cette valeur pour le premier contact, puis cliquez sur l'icône Copier (l'image de deux documents qui est à côté de chaque titre de colonne). La valeur sera automatiquement copiée dans tous les enregistrements affichés.
 
@@ -308,7 +308,7 @@ Pour inclure un formulaire de profil lors du processus d'inscription de l'utilis
 
 1.  Créez un profil utilisé pour l'enregistrement d'utilisateur: 
 
-    ![addprofile_usedfor_reg](../img/CiviCRM-CapturingExposing-buildprofile-addprofile_usedfor_reg-en.jpg "addprofile_usedfor_reg")
+    ![addprofile_usedfor_reg](/img/CiviCRM-CapturingExposing-buildprofile-addprofile_usedfor_reg-en.jpg "addprofile_usedfor_reg")
 2.  Ajoutez les champs que vous souhaitez que les gens remplissent au fur et à mesure qu'ils s'inscrivent, en utilisant le même processus décrit ci-dessus. Assurez-vous que la visibilité est définie sur Pages publiques.    
 
 **Inclure des profils dans l'écran Drupal "Mon compte"**
@@ -328,7 +328,7 @@ Remarque: le profil doit inclure uniquement des champs relatifs au type de conta
 
 Si vous voulez que les visiteurs créent un compte Drupal ou Joomla! lors du remplissage d'un profil, vous pouvez activer cette option avec l'option "Enregistrement de compte d'utilisateur" sous **Personnaliser les données et les écrans>Profils**  Cliquez sur **Paramètres** dans un profil. Les utilisateurs anonymes (non connectés) seront invités (ou obligés) de créer un compte lorsqu'ils visiteront le profil. Les utilisateurs connectés verront simplement les champs du profil.
 
-![Profile user registration options](../img/CiviCRM-CapturingExposing-buildprofile-CMS_user_reg-en.png "CMS_user_reg")
+![Profile user registration options](/img/CiviCRM-CapturingExposing-buildprofile-CMS_user_reg-en.png "CMS_user_reg")
 
 Vous devez inclure un champ "Adresse e-mail principale" dans le profil pour que cette fonctionalité agisse correctement. C'est également vrai lorsque le profil est incorporé dans une page de contribution en ligne ou une page d'enregistrement d'événement. Par conséquent, vous pouvez inviter ou forcer les visiteurs anonymes à créer un compte lorsqu'ils s'inscrivent à un événement.
 

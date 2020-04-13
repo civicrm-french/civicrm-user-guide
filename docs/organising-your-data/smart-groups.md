@@ -45,15 +45,15 @@ Vous voudrez peut-être aussi affiner les critères que votre groupe dynamique u
 
 Cliquez sur **Gestion des groupes**. Pour modifier les critères de recherche d'un groupe particulier, cliquez sur **Paramètres** à droite de ce groupe.
 
-![image](../img/Groups&tags_updatecriteria_1.png)
+![image](/img/Groups&tags_updatecriteria_1.png)
 
 Dans l'écran des paramètres de groupe, cliquez sur **Modifier les critères de groupe dynamique** en bas à gauche.
 
- ![image](../img/Groups&tags_edit%20Smart%20Group%20criteria.png)
+ ![image](/img/Groups&tags_edit%20Smart%20Group%20criteria.png)
  
 Cela affichera un écran semblable à celui que vous avez utilisé à l'origine pour créer le groupe dynamique avec les résultats de recherche affichés. Cliquez sur la barre en haut de l'écran pour afficher les critères que vous avez utilisés pour définir le groupe dynamique. Vous pouvez ensuite mettre à jour les critères et, dès que vous êtes satisfait des résultats, sélectionnez tous les enregistrements et choisissez **Update Smart Group** dans le menu déroulant "Actions".
 
-![image](../img/Groups&tags_actions%20Update.png)
+![image](/img/Groups&tags_actions%20Update.png)
 
 Votre groupe dynamique repose maintenant sur les nouveaux critères.
 

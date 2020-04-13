@@ -7,11 +7,11 @@ Menu de navigation
 -------------------
 Le menu de navigation est une barre horizontale en haut de chaque page "back office" de CiviCRM.
 
-![image](../img/4.5%20Menubar.png)... 
+![image](/img/4.5%20Menubar.png)... 
 
 Ce menu donne accès à presque toutes les fonctions de CiviCRM et est organisé en grande partie par les Composants (tels que Contributions, Evénements et Mailings), ainsi que Recherche, Administrer et Rapports, et affiche les composants activés. 
 
-![NavMenu_SearchPulldown](../img/CiviCRM_update-CiviCore-NavMenu_SearchPulldown-en.jpg "NavMenu_SearchPulldown")
+![NavMenu_SearchPulldown](/img/CiviCRM_update-CiviCore-NavMenu_SearchPulldown-en.jpg "NavMenu_SearchPulldown")
 
 Vous pouvez modifier le menu de navigation en allant à: **Administer**> **Customize**> **Menu de navigation**,  puis ajouter ou réorganiser les éléments de menu à l'écran. N'oubliez pas que les changements que vous apportez au menu de navigation seront visibles par tous ceux qui ont les autorisations appropriées pour voir le menu... pour le meilleur ou pour le pire ! Soyez donc prudent lorsque vous modifiez le menu de navigation.
 
@@ -25,11 +25,11 @@ Lorsque vous vous connectez pour la première fois à CiviCRM, la première page
 -   Activités : une liste des activités récentes qui ont été enregistrées par CiviCRM (cela peut inclure les courriels envoyés aux membres, les dons qui ont été faits, ou les réunions qui ont été prévues dans CiviCRM).
 -   Rapport d'adhésion : un tableau résumant les informations sur les membres suivis, ventilé par mois. Cela comprend entre autre le nombre de membres de chaque type, les montants totaux des paiements effectués et le nombre de contributions versées.
 
-![Dashboard_homescreen](../img/CiviCRM_update-CiviCore-Dashboard_homescreen-en.jpg "Dashboard_homescreen")
+![Dashboard_homescreen](/img/CiviCRM_update-CiviCore-Dashboard_homescreen-en.jpg "Dashboard_homescreen")
 
 Vous pouvez ajouter des indicateurs à votre tableau de bord CiviCRM en cliquant sur le bouton **Configurer votre tableau de bord**. Vous verrez une liste d'indicateurs disponibles qui peuvent être déplacés dans la colonne de droite ou de gauche de votre tableau de bord.
 
-![Dasboard_editscreen](../img/CiviCRM_update-CiviCore-Dasboard_editscreen-en.jpg "Dasboard_editscreen")
+![Dasboard_editscreen](/img/CiviCRM_update-CiviCore-Dasboard_editscreen-en.jpg "Dasboard_editscreen")
 
 Cliquez sur **Terminé** pour enregistrer votre tableau de bord. Vous verrez les mises à jour de l'état de vos indicateurs chaque fois que vous vous connectez (si vous souhaitez vérifier et voir les modifications plus récentes, vous pouvez toujours cliquer sur **Rafraichir les données du tableau de bord** pour afficher les nouvelles informations. Pour des raisons de performance, les tableaux de bord sont mis en cache. Pour modifier la fréquence d'actualisation du tableau de bord :  **Administer**> **Paramètres système**> **Misc**,  éditer :  **Dashboard cache timeout**.
 

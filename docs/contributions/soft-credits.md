@@ -22,7 +22,7 @@ Vous pouvez donc utiliser le crédit indirect de CiviCRM pour créditer les part
 
 Dans la capture d'écran ci-dessous, vous pouvez voir que nous avons crédité la contribution de Magan Cooper de 1 500 $ à trois personnes différentes.
 
-![image](../img/soft-credit-donation-1.png)
+![image](/img/soft-credit-donation-1.png)
 
 CiviCRM peut également gérer des scénarios plus complexes. Par exemple, Joe est un membre actif d'une fondation communautaire qui contribue régulièrement à votre organisation. Joe a sollicité une contribution de Jane au nom de la fondation communautaire. Votre organisation recevrait donc un chèque de la fondation communautaire. En utilisant des types de crédits souples, les utilisateurs peuvent attribuer correctement le crédit sans dupliquer les contributions. Dans ce cas:
 
@@ -32,11 +32,11 @@ CiviCRM peut également gérer des scénarios plus complexes. Par exemple, Joe e
 
 Ce scénario est illustré dans la capture d'écran ci-dessous.
 
-![image](../img/soft-credit-donation-2.png)
+![image](/img/soft-credit-donation-2.png)
 
 En plus d'enregistrer les crédits indirects, nous pouvons également en faire le rapport. Le rapport détaillé des contributions comporte des colonnes optionnelles qui en affichent les détails. Lorsque cette case est cochée, quatre colonnes supplémentaires s'affichent dans CiviReport, et peuvent être utilisées pour afficher les informations sur le crédit indirect.
 
-![image](../img/z_sprint14_contributions_soft_credit.PNG)
+![image](/img/z_sprint14_contributions_soft_credit.PNG)
 
 Section remerciements et profils
 ---------------------------------
@@ -45,11 +45,11 @@ Lorsque vous créez une page de contribution, vous avez la possibilité d'autori
 
 Cela affichera des champs supplémentaires qui vous permettront de spécifier les types d'honneur et le profil à inclure dans cette section.
 
-![image](../img/z-sprint14_honoree_section.PNG)
+![image](/img/z-sprint14_honoree_section.PNG)
 
 Une fois enregistrés, les utilisateurs finaux pourront entrer des informations honorifiques pour les contributions en ligne. CiviCRM vérifiera si la personne remerciée existe dans CiviCRM en utilisant déjà les règles de vérification des doublons par défaut sur votre site, si un doublon n'est pas trouvé, un nouvel enregistrement de contact sera créé. Un crédit indirect sera ajouté au dossier de contact du candidat.
 
-![image](../img/soft-credit-honoree-info.png)
+![image](/img/soft-credit-honoree-info.png)
 
 Crédits indirects et Pages de Campagne Personnelles
 ----------------------------------------

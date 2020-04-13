@@ -32,7 +32,7 @@ Par exemple, vous pouvez différentier **réunions** en tant que **réunion de p
 Pour en savoir plus sur la création de champs personnalisés, reportez-vous au chapitre **Champs personnalisés**.
 Pour plus de détails sur la production de rapports, consultez la section **Rapports**. 
 
-![image](../img/Fr_activite_creation.PNG)
+![image](/img/Fr_activite_creation.PNG)
 
 Les activités ont les attributs suivants par défaut:
 
@@ -60,7 +60,7 @@ Création de nouveaux types d'activités
 ---------------------------
 Aller à  **Administer> Personnaliser les données et les écrans> Types d'activités** et cliquez sur "Ajouter un type d'activité".
 
-![image](../img/Fr_activite_type_activite.PNG)
+![image](/img/Fr_activite_type_activite.PNG)
 
 Attribuez votre nouveau type d'activité au composant "Contact" si vous souhaitez qu'il soit disponible à partir
 du bouton "Actions" lors de l'affichage d'un enregistrement de contact. Assignez-le à "CiviCase" si ces activités
@@ -72,7 +72,7 @@ Lorsque vous configurez un ensemble de champs de données personnalisées, vous 
 Une des options ici est "Activité" et si vous le souhaitez, vous pouvez préciser quel type d'activité. 
 Cela signifie que ces champs de données personnalisés seront disponibles lors de l'enregistrement des activités. 
 
-![image](../img/Fr_activite_champ_personnalise.PNG)
+![image](/img/Fr_activite_champ_personnalise.PNG)
 
 Options d'état d'activité
 -----------------------
@@ -106,17 +106,17 @@ Les options que vous pouvez définir sont:
 -   **Fin**: Après un certain nombre d'occurrences ou à une date précise
 -   **Exclure les Dates**: Plusieurs dates peuvent être sélectionnées
 
-![repeter activité](../img/Fr_activite_repeter.PNG)
+![repeter activité](/img/Fr_activite_repeter.PNG)
 
 Une fois l'activité enregistrée, un écran de confirmation s'affiche affichant toutes les dates pour lesquelles 
 une activité sera créée. Une nouvelle Activité sera créée pour chaque répétition et pourra être modifiée et
 supprimée individuellement.
 
-![image](../img/repeatscreen.png)
+![image](/img/repeatscreen.png)
 
 Lorsque vous modifiez une répétition d'une activité, vous avez la possibilité d'appliquer la modification à
 cette activité uniquement, ou à cette activité et à toutes les activités futures de la série ou à chaque 
 activité de la série. Les modifications apportées à la date ou à l'heure ne sont PAS appliquées à d'autres activités récurrentes.
 
-![image](../img/reoccurringscreenedits.png)
+![image](/img/reoccurringscreenedits.png)
 

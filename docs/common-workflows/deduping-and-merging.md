@@ -33,7 +33,7 @@ Si vous ne souhaitez pas configurer vos propres règles de dédoublonnage, il ex
 
 Pour visualiser les règles de dédoublonnage, aller à **Contacts > Rechercher et fusionner les contacts en double** dans le menu principal. Vous arriverez à l'écran suivant :
 
-![Duplicate Choose Find Rule](../img/duplicates-choose-find-rule.png)
+![Duplicate Choose Find Rule](/img/duplicates-choose-find-rule.png)
 
 Différentes règles par défaut (supervisé et automatique) existent pour chaque type de contact (Individu / Particulier, organisations et ménage / foyer). Les règles par défaut sont utilisées par CiviCRM pour des vérifications automatique, que nous allons expliquer un peu plus bas.
 
@@ -63,16 +63,16 @@ Utiliser les règles et fusionner les contacts en doublon manuellement
 
 3.  Vous pouvez faire une recherche sur l'ensemble des contacts, ou la limiter sur un groupe en particulier. Pour ce dernier cas, CiviCRM recherchera des doublons dont au moins l'un des contacts appartient au groupe concerné.
 
-    ![duplicates-select-group](../img/duplicates-select-group.png)  
+    ![duplicates-select-group](/img/duplicates-select-group.png)  
 
     Lors du scan, si le poids numérique entre deux contacts est égal ou supérieur à la valeur de seuil, ces derniers sont affichés sur l'écran suivant en tant que possible doublons. Une liste sera alors affichée en dessous de quelques cases à cocher Afficher / cacher : rue, code postal, conflits et seuil.  
 
-![List of Possible Duplicates](../img/duplicates-list-of-possibles.png)  
+![List of Possible Duplicates](/img/duplicates-list-of-possibles.png)  
 
 4.  Cliquer sur **Fusionner** pour une paire de contacts fait afficher une table montrant les détails de ces derniers. CiviCRM indique l'enregistrement en doublon dans la colonne de gauche, et l'enregistrement original dans la colonne de droite. En cas de fusion, les valeurs de la colonne de gauche remplaceront celles de la colonne de droite.
 5.  Si vous souhaitez que l'opération se fasse de la droite vers la gauche, il suffit de cliquer sur **Inverser les contacts en doublons et les originaux** en haut de la page.
 
-![Duplicate Merge Screen](../img/duplicate-merge-screen.png)  
+![Duplicate Merge Screen](/img/duplicate-merge-screen.png)  
 
 6.  Les lignes de l'écran de fusion ont des codes couleurs.
     -  Le vert indique de l'information est la même pour chaque contact. Ces derniers peuvent être cachés en cliquant sur **Afficher / cacher les lignes ayant des données identiques pour chaque enregistrement de contact**.
@@ -86,7 +86,7 @@ Fusionner plusieurs contacts simultanement
 
 Parfois, il est plus efficace de fusionner plusieurs paires de doublons en même temps. Vous pouvez le faire depuis l'écran des doublons sur lequel vous pouvez lister jusqu'à 100 lignes.
 
-![List of Possible Duplicates Batch Merge](../img/duplicate-list-of-possibles-detail.png)
+![List of Possible Duplicates Batch Merge](/img/duplicate-list-of-possibles-detail.png)
 
 Vous pouvez **Fusionner par lot tous les doublons** (cela fusionnera **tous** les doublons détectés, pas uniquement ceux listés à l'écran) ou **Fusionner par lot les doublons sélectionnés** (ceux dont la case à cocher à gauche de leur ligne est active). Ces options de fusion sont affichées en dessous de la liste des doublons détectés. Vous y trouverez également la possiblité d'**Inverser les doublons sélectionnés**. Quand des contacts sont fusionnés, Contact 1 est conservé et Contact 2 est fusionné puis supprimé. Cette option permet d'inverser les rôles.
 
@@ -95,7 +95,7 @@ La fonctionnalité de fusion par lot ne traite que les doublons pour lesquels il
 
 Une fois la fusion par lot effectuée, vous serez renvoyé à la liste originale. Si des enregistrements ont été sautés suite à un conflit de données, ils seront affichés ici (cf image ci-dessous). Il est possible de rafraichir cette liste en cliquant sur **Rafraichir les doublons** (cette page ne se met pas à jour automatiquement pour éviter trop de latence si la taille de la base de donnée est très importante). Vous pourrez alors continuer de juger les possibles doublons et les fusionner manuellement.
 
-![image](../img/CiviCRM_dedupe_batchmerge.PNG)
+![image](/img/CiviCRM_dedupe_batchmerge.PNG)
 
 **ATTENTION :** si vous pensez utiliser le traitement de déboulonnage par lot, veuillez tout d'abord noter que :
 

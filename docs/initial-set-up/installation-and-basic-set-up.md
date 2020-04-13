@@ -41,7 +41,7 @@ Connectez-vous à votre site CiviCRM et accédez à **Administer> Console d'admi
 
 Utilisez cette liste de contrôle pour paramétrer et enregistrer les tâches de configuration de votre site. Vous serez redirigé vers cette liste après avoir enregistré chaque paramètre. Les paramètres que vous n'avez pas encore initialisés s'affichent en rouge. Après avoir visité une page, les liens s'affichent en vert (mais vous aurez peut-être besoin revenir sur une section afin de completer ou mettre à jour les paramètres, vous pourrez le faire plus tard).
 
-![image](../img/Fr_checklist-de-config-1.PNG)
+![image](/img/Fr_checklist-de-config-1.PNG)
 
 ### Localisation
 
@@ -55,13 +55,13 @@ Pour plus d'info, consulter la section [Régionalisation de CiviCRM](../the-civi
 
 Sous Localisation, vous trouverez également les **Formats de date** :
 
-![image](../img/FR_parametre_de_date.PNG)
+![image](/img/FR_parametre_de_date.PNG)
 
 CiviCRM fournit par défaut des fourchettes de date pour l'entrée sur des champs de date spécifiques. Par exemple, la fourchette par défaut pour les dates d'activité est 20 ans avant l'année en cours jusqu'à 10 ans au-delà de l'année en cours. Si vous souhaitez suivre les activités qui ont eu lieu, disons, il ya 25 ans, vous devez mettre à jour cette option pour permettre à vos utilisateurs finaux de consigner ces activités. Pour mettre à jour ces paramètres dans la plage appropriée, allez dans **Administer> Personnalisez les données> Dates Préférences**. Si vous laissez ces paramètres par défaut, vous verrez ce  message d'erreur: 
 *By default, CiviCRM provides ranges for input on specific date fields. For instance, the default range for Activity Dates are 20 years prior to the current year all the way through to 10 years beyond the current year. If you would like to track activities that have occurred, say, 25 years ago then you would need to update this range to enable your end users to log these activities.*
 Pour mettre à jour ces paramétrages, menu : **Administer> Personnalisez les données> Dates Préférences**.
 
-![image](../img/Fr_date_avances.PNG)
+![image](/img/Fr_date_avances.PNG)
 
 ### Adresse et coordonnées de votre organisation
 
@@ -75,21 +75,21 @@ C'est ici que vous pouvez activer ou désactiver les composants pour votre syst�
 
 Lorsque vous installez CiviCRM pour la première fois, les composants les plus utilisés (CiviContribute, CiviEvent, CiviMail, CiviMember, CiviReport) sont déjà activés. Si vous n'avez pas besoin de ces composants, vous pouvez les désactiver. Vous pouvez également activer tout ou partie de CiviCampaign, CiviCase, CiviGrant et CiviPledge. Vous pouvez modifier cette page à tout moment pour activer ou désactiver les composants.
 
-![image](../img/Fr_activer_composant.PNG)
+![image](/img/Fr_activer_composant.PNG)
 
 Vous pouvez désactiver un composant que vous avez déjà utilisé. Les données et informations contenues dans le composant sont conservées et seront toujours là si vous le réactivez. Il serait anormal de désactiver un composant que vous avez déjà utilisé. Si vous souhaitez simplifier le menu d'administration et la page de recherche avancée, une meilleure façon de faire  peut consister à utiliser les autorisations (voir le chapitre Autorisations et contrôle d'accès).
 
 ### Préférences d'affichage
 Cet écran vous permet de modifier l'affichage des éléments à l'écran et les formulaires pour les tâches suivantes:
 
-![image](../img/Fr_preference_affichage.PNG)
+![image](/img/Fr_preference_affichage.PNG)
 
 -   **Affichage des contacts**  - Contrôle les onglets affichés lors d'un enregistrement de contact. EXEMPLE:   Si votre organisation ne suit pas les relations entre les contacts, désélectionnez cette option pour simplifier l'affichage à l'écran. Les onglets des contributions, annonces de contributions, adhésions, événements, subventions et dossiers sont également masqués si le composant correspondant n'est pas activé.
 -   **Affichage des Groupes intelligents** - Contrôle l'affichage des groupes intelligents auxquels un contact appartient.
 -   **Modification des contacts** - Contrôle les sections incluses lors de l'ajout ou de l'édition d'un enregistrement de contact. EXEMPLE: Si votre organisation ne gére pas le sexe ni la date de naissance des individus, simplifiez le formulaire en désélectionnant les données démographiques.
 -   **Recherche de contacts** - Contrôle les sections comprises dans le formulaire "Recherche avancée". EXEMPLE: Si vous ne suivez pas les relations, vous ne rechercherez pas dans cette section. Simplifiez le formulaire en désélectionnant cette option.
 
-![image](../img/Fr_preference_affichage_2.PNG)
+![image](/img/Fr_preference_affichage_2.PNG)
 
 -   **Tableau de bord de contact** - Permet à vos contacts de voir les groupes auxquels ils sont abonnés, leur historique de contribution, les informations d'inscription à un événement... et plus encore. Vous pouvez contrôler les sections qui doivent être incluses dans le tableau de bord ici. EXEMPLE: Si vous ne voulez pas que les électeurs voient leur propre historique de contribution, désélectionnez cette option.
 -   **Editeur WYSIWYG** - Sélectionnez **CKEditor** pour que les utilisateurs disposent d'un moyen simple d'entrer du texte dans les champs qui permettent le formatage HTML (comme par exemple la section d'introduction de vos pages de contribution en ligne)
@@ -130,7 +130,7 @@ Après avoir vérifié les champs et les mises en page par défaut, contrôlez l
 
 -  **Normalisation de l'adresse**- CiviCRM utilise les normes d'adressage postal du service postal des États-Unis (USPS) pour analyser une adresse dans les champs qui contiennent les éléments d'adresse: numéro de rue, nom de rue et appt / unité /etc... Il est préférable de saisir des informations d'adresse qui sont conformes aux normes d'adressage postal de votre pays, non seulement pour la cohérence de vos données, mais aussi pour tirer le meilleur parti de la fonction d'analyse des adresses. Lorsque l'analyse d'adresse est activée, vous pouvez modifier et/ou afficher l'adresse analysée en cliquant sur "Modifier les éléments d'adresse".
       
-    ![Configuration Address Parsing](../img/basic-set-up-address-parsing.png)  
+    ![Configuration Address Parsing](/img/basic-set-up-address-parsing.png)  
 
   Pour en savoir plus sur les normes d'adressage postal d'USPS ici:  [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
    
@@ -214,7 +214,7 @@ CiviCRM prend en charge trois méthodes différentes de connexion à un serveur 
 
 Vous devez toujours envoyer un email de test après avoir saisi ou modifié les paramètres. Cliquez simplement sur "Enregistrer et envoyer un e-mail de test" (illustré dans la capture d'écran suivante). Un e-mail sera envoyé à l'adresse e-mail associée à votre compte de connexion utilisateur. L'adresse de courriel " De " sera l'adresse par défaut que vous avez configurée dans la section précédente.
 
-![Picture_11](../img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
+![Picture_11](/img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
 
 Si CiviCRM ne parvient pas à envoyer le courrier électronique de test, un message s'affichera à l'écran avec l'erreur spécifique et quelques suggestions pour résoudre le problème.
 
@@ -229,7 +229,7 @@ Si vous ne voulez pas que les utilisateurs envoient des emails sortants depuis C
 
 CiviCRM utilisera l'adresse par défaut " De " définie ici lors de l'envoi de courriels automatisés. Si vous avez déjà entré une adresse e-mail dans l'écran Informations du domaine, cette adresse sera répertoriée ici (comme illustré sur le champ le plus à gauche de la capture d'écran suivante).
 
-![image](../img/Fr_choix_from_email.PNG)
+![image](/img/Fr_choix_from_email.PNG)
 
 Lorsque les utilisateurs envoient un courrier électronique à l'aide de CiviCRM, leur adresse de courriel principale est utilisée comme adresse " De " par défaut. Toutefois, ils peuvent également sélectionner l'une des adresses courriel générales définies ici comme alternative.
 

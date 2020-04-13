@@ -30,7 +30,7 @@ La méthode à suivre est la suivante :
 1.  Ouvrir le menu **Administrer > CiviCampaign > Types de Campagne**. 
 2.  La liste des types de campagnes existants est alors affichée : 
      
-    ![image](../img/campaign_configuration_typeoptions_1.png)
+    ![image](/img/campaign_configuration_typeoptions_1.png)
 3.  Cliquer le bouton **Ajouter type de campagne**. Le formulaire s'affiche. Entrez le libellé de ce nouveau type ainsi qu'une description (optionnel).
 4.  Éventuellement, vous pouvez changer le numéro d'ordre par défaut. Cela affectera uniquement son ordre d'affichage dans les listes déroulantes. A savoir que l'indice le plus faible (1) indique que l'information est affichée en première ligne.
 5.  Cliquer le bouton **Enregistrer**.
@@ -44,7 +44,7 @@ L'affectation d'un statut particulier vous donne la possibilité de mettre à jo
 
 1.  Ouvrir le menu **Administrer > CiviCampaign > Statuts de Campagne**. 
     Par défaut, CiviCampaign vous propose les statuts suivant : Planifié, En cours, Terminé, Annulé.
-    ![image](../img/campaign_configuration_statuses.png)
+    ![image](/img/campaign_configuration_statuses.png)
 2.  Cliquer le bouton **Ajouter statut de campagne**. Le formulaire s'affiche. Entrez le libellé de ce nouveau statut ainsi qu'une description (optionnel). 
 3.  Éventuellement, vous pouvez changer le numéro d'ordre par défaut. Cela affectera uniquement son ordre d'affichage dans les listes déroulantes. À savoir que l'indice le plus faible (1) indique que l'information est affichée en première ligne.
 4.  Cliquer le bouton **Enregistrer**. Une fois fait, ce nouveau statut est bien pris en compte.
@@ -63,4 +63,4 @@ Pour configurer l'Indice d'implication (ou d'engagement) :
 
 Cette information peut, aussi, compléter l'évaluation par vos employés/organisateurs, relative à l'implication sur les contacts/membres interagissant avec votre association.
 
-![image](../img/campaign_configuration_engageoptions.png)
+![image](/img/campaign_configuration_engageoptions.png)

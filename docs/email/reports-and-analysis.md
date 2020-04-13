@@ -17,7 +17,7 @@ sont disponibles.
 
 ### Résumé de livraison
 
-![report_email](../img/report_email-en.gif "report_email")
+![report_email](/img/report_email-en.gif "report_email")
 
 Le résumé de livraison affiche des statistiques de haut niveau à propos
 de votre envoi en masse.
@@ -74,7 +74,7 @@ dans le Résumé de livraison. Vous pouvez y voir les raisons des rebonds indivi
 Dans la zone "Envois en masse" de **Recherche > Recherche avancée**, vous pouvez rechercher par
 type de rebond.
 
-![image](../img/advanced_search_mailing_bounce_type.png) 
+![image](/img/advanced_search_mailing_bounce_type.png) 
 
 Résumé des ouvertures de clics
 ------------------------------
@@ -82,7 +82,7 @@ Résumé des ouvertures de clics
 Dans cette section, les statistiques de clics sont affichées pour chaque lien.
 Il existe deux statistiques, **Clics** (c'est-à-dire le nombre de fois qu'un lien a été cliqué) et **Clics uniques** (c'est-à-dire le nombre de personnes qui ont cliqué sur des liens).
 
-![image](../img/Screen%20shot%202011-08-27%20at%2016.28.28.png)
+![image](/img/Screen%20shot%202011-08-27%20at%2016.28.28.png)
 
 Envoi de rapports avec CiviReport
 -------------------------------

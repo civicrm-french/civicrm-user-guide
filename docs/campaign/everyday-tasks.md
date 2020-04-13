@@ -10,13 +10,13 @@ Le tableau de bord de campagnes vous permet de créer, configurer, gérer et voi
 
 Pour afficher le tableau de bord de campagnes, ouvrir le menu : **Campagnes > Tableau de bord > Campagnes.**
 
-![Campaign Dashboard](../img/campaign_everyday_dashboard.png)
+![Campaign Dashboard](/img/campaign_everyday_dashboard.png)
 
 À partir de ce tableau de bord vous pouvez modifier, désactiver et supprimer les campagnes déjà créées. Vous pouvez aussi créer de nouvelles campagnes.
 
 Le plus souvent, le nombre de campagnes existantes sera trop grand pour être visualisable sur une seule page. Leur exploitation peut se révéler peu aisée. Ouvez alors l'accordéon : "Rechercher des campagnes". Le formulaire intégré vous propose un jeu de filtres permettant de limiter l'affichage du nombre de campagnes.
 
-![Campaign Search Criteria](../img/civicampaign-dashboard-search-criteria.png)
+![Campaign Search Criteria](/img/civicampaign-dashboard-search-criteria.png)
 
 Création d'une campagne
 -----------------------
@@ -24,7 +24,7 @@ Création d'une campagne
 Pour créer une campagne, il suffit de suivre les étapes suivantes :
 
 1.   Ouvrir le menu **Campagne > Nouvelle campagne**. Le formulaire suivant apparait :
-![image](../img/campaign_everyday_newcampaign.png)
+![image](/img/campaign_everyday_newcampaign.png)
 
 2.  Saisir les informations qui vont caractériser votre campagne :
     -   **Libellé** (obligatoire) : indiquez le nom (qui sera unique) décrivant votre campagne. Il est judicieux d'établir (une fois pour toutes) une convention de nomage vous permettant de retrouver rapidement une campagne spécifique, particulièrement lorsqu'il y en a beaucoup. Pour rappel, les listes déroulantes présentent ces informations de façon alphabétique.
